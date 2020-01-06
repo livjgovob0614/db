@@ -1,0 +1,1000 @@
+dry-run: pandas-dev/pandas: Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
+dry-run: scikit-learn-contrib/sklearn-pandas: Pandas integration with sklearn
+dry-run: blaze/blaze: NumPy and Pandas interface to Big Data
+dry-run: pandas-profiling/pandas-profiling: Create HTML profiling reports from pandas DataFrame objects
+dry-run: yhat/pandasql: sqldf for pandas
+dry-run: databricks/koalas: Koalas: pandas API on Apache Spark
+dry-run: sparklingpandas/sparklingpandas: Sparkling Pandas
+dry-run: pydata/pandas-datareader: Extract data from a wide range of Internet sources into a pandas DataFrame.
+dry-run: ranaroussi/yfinance: Yahoo! Finance market data downloader (+faster Pandas Datareader)
+dry-run: peerchemist/finta: Common financial technical indicators implemented in Pandas.
+dry-run: pydata/pandas-gbq: Pandas Google BigQuery
+dry-run: tkrabel/bamboolib: bamboolib - a GUI for pandas dataframes. Stop googling pandas commands
+dry-run: Crypto-toolbox/pandas-technical-indicators: Technical Indicators implemented in Python using Pandas
+dry-run: modin-project/modin: Modin: Speed up your Pandas workflows by changing a single line of code
+dry-run: kieferk/dfply: dplyr-style piping operations for pandas dataframes
+dry-run: femtotrader/pandas_talib: A Python Pandas implementation of technical analysis indicators
+dry-run: IntelPython/sdc: Intel® Scalable Dataframe Compiler for Pandas*
+dry-run: mm-mansour/Fast-Pandas: Benchmark for different operations in pandas against various dataframe sizes.
+dry-run: chrisdev/django-pandas: Tools for working with pandas in your Django projects
+dry-run: dmnfarrell/pandastable: Table analysis in Tkinter using pandas DataFrames.
+dry-run: bluenote10/PandasDataFrameGUI: A minimalistic GUI for analyzing Pandas DataFrames.
+dry-run: ibis-project/ibis: A pandas-like deferred expression system, with first-class SQL support
+dry-run: chezou/tabula-py: Simple wrapper of tabula-java: extract table from PDF into pandas DataFrame
+dry-run: pandas-ml/pandas-ml: pandas, scikit-learn, xgboost and seaborn integration 
+dry-run: pydata/numexpr: Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas, bcolz and more
+dry-run: ematvey/pybacktest: Vectorized backtesting framework in Python / pandas, designed to make your backtesting easier — compact, simple and fast
+dry-run: draperjames/qtpandas: Qt Meets Pandas
+dry-run: pandas-dev/pandas2: Design documents and code for the pandas 2.0 effort. 
+dry-run: donnemartin/data-science-ipython-notebooks: Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
+dry-run: PatrikHlobil/Pandas-Bokeh: Bokeh Plotting Backend for Pandas and GeoPandas
+dry-run: wq/django-rest-pandas: 📊📈 Serves up Pandas dataframes via the Django REST Framework for use in client-side (i.e. d3.js) visualizations and offline analysis (e.g. Excel)
+dry-run: altair-viz/pdvega: Interactive plotting for Pandas using Vega-Lite
+dry-run: pdpipe/pdpipe: Easy pipelines for pandas DataFrames.
+dry-run: matthewgilbert/pdblp: pandas wrapper for Bloomberg Open API
+dry-run: mouradmourafiq/pandas-summary: An extension to pandas dataframes describe function.
+dry-run: mars-project/mars: Mars is a tensor-based unified framework for large-scale data computation which scales Numpy, Pandas and Scikit-learn.
+dry-run: kszucs/pandahouse: Pandas interface for Clickhouse database
+dry-run: jadianes/winerama-recommender-tutorial: A wine recommender system tutorial using Python technologies such as Django, Pandas, or Scikit-learn, and others such as Bootstrap.
+dry-run: robdmc/pandashells: :panda_face: Bringing the python data stack to the shell prompt
+dry-run: deepgraph/deepgraph: Analyze Data with Pandas-based Networks. Documentation:
+dry-run: rsheftel/pandas_market_calendars: Exchange calendars to use with pandas for trading applications
+dry-run: e2nIEE/pandapower: Convenient Power System Modelling and Analysis based on PYPOWER and pandas
+dry-run: martijnvermaat/calmap: Calendar heatmaps from Pandas time series data
+dry-run: gatapia/py_ml_utils: Some small utility modules to help with pandas, numpy and sklearn usage in other projects
+dry-run: raphaelvallat/pingouin: Statistical package in Python based on Pandas
+dry-run: ranaroussi/pystore: Fast data store for Pandas time-series data
+dry-run: onesuper/pandasticsearch: An Elasticsearch client exposing DataFrame API
+dry-run: xhochy/fletcher: Pandas ExtensionDType/Array backed by Apache Arrow
+dry-run: twopirllc/pandas-ta: An easy to use Python 3 Pandas Extension with 80+Technical Analysis Indicators
+dry-run: nalepae/pandarallel: A simple and efficient tool to parallelize Pandas operations on all available CPUs
+dry-run: pandaproject/panda: PANDA: A Newsroom Data Appliance
+dry-run: jdrudolph/goenrich: GO enrichment with python -- pandas meets networkx
+dry-run: aktaylor08/RosbagPandas: Ros Pandas pacakge.  Contains code to create a python pandas data frame from a ros bag file.
+dry-run: id774/finance: Python for Financial Data Analysis with pandas
+dry-run: capitalone/datacompy: Pandas and Spark DataFrame comparison for humans
+dry-run: jorisvandenbossche/2015-PyDataParis: Pandas introduction talk I gave at Pydata Paris 2015
+dry-run: dovpanda-dev/dovpanda: Directions overlay for working with pandas in an analysis environment
+dry-run: tdpetrou/pandas_cub: Learn how to build a data analysis library from scratch
+dry-run: HHammond/PrettyPandas: A Pandas Styler class for making beautiful tables
+dry-run: ynqa/pandavro: Apache Avro <-> pandas DataFrame
+dry-run: Zsailer/phylopandas: Pandas DataFrames for phylogenetics
+dry-run: TMiguelT/PandasSchema: A validation library for Pandas data frames using user-friendly schemas
+dry-run: jem1031/pandas-pipelines-custom-transformers: Material for Talk at PyData Seattle 2017
+dry-run: agawronski/pandas_redshift: Load data from redshift into a pandas DataFrame and vice versa.
+dry-run: GaelVaroquaux/sklearn_pandas_tutorial: EuroScipy 2014 tutorial: Introduction to predictive analytics with pandas and scikit-learn
+dry-run: 691175002/BLPInterface: Python Bloomberg API and Pandas Wrapper
+dry-run: robintw/PandasToPowerpoint: Python utility to take a Pandas DataFrame and create a Powerpoint table
+dry-run: holoviz/hvplot: A high-level plotting API for pandas, dask, xarray, and networkx built on HoloViews
+dry-run: jmcarpenter2/swifter: A package which efficiently applies any function to a pandas dataframe or series in the fastest available manner
+dry-run: scikit-hep/root_pandas: A Python module for conveniently loading/saving ROOT files as pandas DataFrames
+dry-run: ContinuumIO/cyberpandas: IP Address dtype and block for pandas
+dry-run: wdm0006/git-pandas: A wrapper around gitpython to produce pandas dataframes for analysis
+dry-run: DeepSpace2/StyleFrame: A library that wraps pandas and openpyxl and allows easy styling of dataframes in excel
+dry-run: ranaroussi/pandas-montecarlo: A lightweight Python library for running simple Monte Carlo Simulations on Pandas Series data
+dry-run: maybelinot/df2gspread: Manage Google Spreadsheets in Pandas DataFrame with Python
+dry-run: sinhrks/japandas: pandas japanese extension
+dry-run: marcbelmont/satellite-image-object-detection: YOLO/YOLOv2 inspired deep network for object detection on satellite images (Tensorflow, Numpy, Pandas).
+dry-run: aiguofer/gspread-pandas: A package to easily open an instance of a Google spreadsheet and interact with worksheets through Pandas DataFrames.
+dry-run: dr-leo/pandaSDMX: Python interface to SDMX
+dry-run: aaronbenz/caspanda: Using Pandas easily with Cassandra
+dry-run: UDST/orca: Pipeline orchestration tool with Pandas support
+dry-run: Zsailer/pandas_flavor: The easy way to write your own flavor of Pandas
+dry-run: jackmaney/k-means-plus-plus-pandas: An implementation of the k-means++ clustering algorithm using Pandas
+dry-run: hugadams/scikit-spectra: Python pandas-based toolkit for explorative spectroscopy, in particular UVVis spectroscopic data.
+dry-run: wrobstory/mcflyin: A small timeseries transformation API built on Flask and Pandas
+dry-run: ResidentMario/missingno: Missing data visualization module for Python.
+dry-run: dask/dask: Parallel computing with task scheduling
+dry-run: c-data/pandas-validator: Validation Library for pandas' DataFrame and Series.
+dry-run: wdm0006/twitter-pandas: A wrapper around tweepy to produce pandas dataframes for analysis
+dry-run: datalyze-solutions/pandas-qt: Utilities to use pandas (the data analysis / manipulation library for Python) with Qt.
+dry-run: panalysis/Google2Pandas: Query Google Analytics and get the results as a pandas.DataFrame
+dry-run: Skyellbin/neo4j-python-pandas-py2neo-v3: 利用pandas将excel中数据抽取，以三元组形式加载到neo4j数据库中构建相关知识图谱
+dry-run: treasure-data/pandas-td: Interactive data analysis with Pandas and Treasure Data.
+dry-run: davidastephens/pandas-finance: High level API for access to and analysis of financial data.
+dry-run: altair-viz/altair_pandas: Altair backend for pandas plotting
+dry-run: brentp/combat.py: python / numpy / pandas / patsy version of ComBat for removing batch effects.
+dry-run: bfolkens/py-market-profile: A library to calculate Market Profile (aka Volume Profile) for financial data from a Pandas DataFrame.
+dry-run: facultyai/lens: Summarise and explore Pandas DataFrames
+dry-run: atavory/ibex: Pandas Adapters For Scikit-Learn
+dry-run: mingfang/docker-ipython: Run IPython, Pattern, NLTK, Pandas, NumPy, SciPy, Numba, Biopython inside Docker
+dry-run: jealous/stockstats: Supply a wrapper ``StockDataFrame`` based on the ``pandas.DataFrame`` with inline stock statistics/indicators support.
+dry-run: hgrecco/pint-pandas: Pandas support for pint
+dry-run: robin900/gspread-dataframe: Read/write Google spreadsheets using pandas DataFrames
+dry-run: saurabhnagrecha/Pandas-to-ARFF: Create an ARFF string from an existing pandas dataframe.
+dry-run: remix/partridge: A fast, forgiving GTFS reader built on pandas DataFrames
+dry-run: pjgao/eplot: pandas interface for pyecharts
+dry-run: waditu/tushare: TuShare is a utility for crawling historical data of China stocks
+dry-run: pydata/xarray: N-D labeled arrays and datasets in Python
+dry-run: zygmuntz/kaggle-rossmann: Predicting sales with Pandas
+dry-run: real-time-machine-learning/1-pandas-intro: 利用Pandas分析离线股票数据(秒级记录)
+dry-run: chmp/framequery: SQL on dataframes - pandas and dask
+dry-run: pandera-dev/pandera: A flexible data validation package for Pandas data structures
+dry-run: xugongli/PyQt5-BaiduMapCrawler: 一个基于pyqt5的百度地图兴趣点GUI采集工具，可根据关键词搜索指定区域的兴趣点，并导出为excel文件
+dry-run: daiguadaidai/nginx_log_parse: 分别使用MRJob和Pandas对Nginx日志进行分析
+dry-run: jasonding1354/pyDataScienceToolkits_Base: 使用Python进行数据分析实验工具NumPy、Pandas、Matplotlib、Scikit-learn的入门介绍，使用IPython Notebook格式
+dry-run: toby-p/rightmove_webscraper.py: Python class to scrape data from rightmove.co.uk and return listings in a pandas DataFrame object
+dry-run: NREL/gdx-pandas: Python interface to read and write GAMS GDX files using pandas.DataFrames as the intermediate data format.
+dry-run: bjherger/keras-pandas: keras-pandas allows users to rapidly build and iterate on deep learning models.
+dry-run: pluralsight-projects/Python-Baseball: Building Baseball Data Visualizations with Python
+dry-run: josepm/MP_Pandas: Pandas' group-by/apply with multiprocessing
+dry-run: nephridium/csv2json: Python scripts to convert between CSV and JSON using Pandas
+dry-run: hougs/sparklingpandas-ex: Examples of using SparklingPandas and Pandas with PySpark
+dry-run: RobinL/fuzzymatcher: Record linking package that fuzzy matches two Python pandas dataframes using sqlite3 fts4
+dry-run: Lyonk71/pandas-dedupe: Simplifies use of the Dedupe library via Pandas
+dry-run: ichux/avora: Little demo code using pandas
+dry-run: juliangaal/python-cheat-sheet: Python Cheat Sheet NumPy, Matplotlib
+dry-run: abilian/olapy: OlaPy, an experimental OLAP engine based on Pandas
+dry-run: shantnu/PandasLargeFiles: 
+dry-run: marrrcin/pandas-feature-union: Use Pandas DataFrame with scikit-learn Pipelines and Feature Unions
+dry-run: jeweinberg/Pandas-MICE: 
+dry-run: pydata/pandas-msgpack: Pandas Msgpack
+dry-run: wharton/wrds: Read WRDS datasets remotely (from wrds-cloud) into a Pandas dataframe.
+dry-run: jaidevd/pysemantic: A traits based data validation module for pandas data structures.
+dry-run: zhangxinxing/basic_of_datamining: 利用python中的pandas，sklearn进行数据挖掘
+dry-run: jbn/pandas_access: A tiny, subprocess-based tool for reading a MS Access database (.rdb) as a Pandas DataFrame.
+dry-run: moyix/panda-malrec: A system to record malware using PANDA
+dry-run: LLNL/hatchet: Tree- or Graph-indexed Pandas DataFrames for analyzing performance data
+dry-run: keeganmccallum/sql4pandas: Efficient SQL bindings for the pandas data analysis library implemented entirely in python. Compile and execute sql queries directly on pandas data frames without copying to an external database.
+dry-run: mverleg/pyjson_tricks: Extra features for Python's JSON: comments, order, numpy, pandas, datetimes, and many more! Simple but customizable.
+dry-run: bigsnarfdude/machineLearning: POC IDS anomaly detection engine built with iPython notebook, matplotlib, pandas, numpy, scikit-learn, d3.js, hyperloglog implementation, PYCON 2013 Intro and Advanced Machine Learning Tutorial Notebooks
+dry-run: dashaub/espandas: Reading and writing pandas DataFrames in Elasticsearch
+dry-run: aarshayj/AJ_ML_Library: This library is a wrapper for sklearn and works with data stored using Pandas module.
+dry-run: deppen8/pandas-vet: A plugin for Flake8 that checks pandas code
+dry-run: jsvine/weightedcalcs: Pandas-based utility to calculate weighted means, medians, distributions, standard deviations, and more.
+dry-run: bigfatpanda-training/pandas-practical-python-primer: For Dragon Warriors in Training!
+dry-run: randomthought/mastering_python_pandas: Doing the tutorial from Brandon Rhodes PyCon 2015
+dry-run: Winand/dataframemodel: Display pandas' DataFrame in QTableView easily
+dry-run: han1057578619/MachineLearning_Zhouzhihua_ProblemSets: Exercises answers to the book "machine-learning" written by Zhou Zhihua。周志华《机器学习》课后习题，个人解答。各算法都拿numpy和pandas实现了一遍
+dry-run: fonnesbeck/ngcm_pandas_course: Python data analysis course for 2015 NGCM Summer Academy 
+dry-run: simongeek/PandasDA: Pandas tutorial on Weather data for San Francisco Bay Area
+dry-run: eyaltrabelsi/pandas-log: The goal of pandas-log is to provide feedback about basic pandas operations. It provides simple wrapper functions for the most common functions that add additional logs
+dry-run: ianepreston/stats_can: Get Statistics Canada data into python (mostly pandas)
+dry-run: interrogator/conll-df: CONLL-U to Pandas DataFrame
+dry-run: tomaztk/MSSQLSERVER_Pandas: Using Python Pandas dataframe to read and insert data to Microsoft SQL Server
+dry-run: bnmnetp/reframe: Relational Algebra operators on top of Pandas DataFrames
+dry-run: bwiley1/pandleau: A quick and easy way to convert a Pandas DataFrame to a Tableau .hyper or .tde extract.
+dry-run: innobi/pantab: Read/Write pandas DataFrames with Tableau Hyper Extracts
+dry-run: limix/pandas-plink: PLINK reader for Python.
+dry-run: metrilyx/opentsdb-pandas: Library to convert OpenTSDB data to pandas datastructures
+dry-run: stevesimmons/PyData-PandasFromTheInside: Tutorial session from PyData London, Fri 6 May 2016
+dry-run: wdm0006/gitnoc: A simple ui for git-pandas using nvd3 and flask
+dry-run: PanDAWMS/pilot2: PanDA Pilot 2
+dry-run: femtotrader/python-eodhistoricaldata: Download data from EOD historical data https://eodhistoricaldata.com/ using Python, Requests and Pandas.
+dry-run: smirnov-am/pyfinmod: Financial modeling with Python and Pandas 
+dry-run: igortereshchenko/pandasplotly: 
+dry-run: starenka/pandas_djmodel: Generates Django model definition from Pandas DataFrame
+dry-run: ZaxR/bulwark: Bulwark is a package for convenient property-based testing of pandas dataframes, supported for Python 3.5+.
+dry-run: wesm/ib-flex-analyzer: Analyze your Interactive Brokers Flex XML reports with pandas
+dry-run: PanDAWMS/panda-server: package for the panda server
+dry-run: ariapoy/pandas_intro: Python pandas introduction
+dry-run: commit-live-students/pandas_guided_project: 
+dry-run: X0Leon/XQuant: Simple backtester for human.
+dry-run: colin-fraser/regressions.py: Panel regressions with Pandas
+dry-run: adamerose/pandasgui: A table GUI for Pandas DataFrames.
+dry-run: jmcnamara/XlsxWriter: A Python module for creating Excel XLSX files.
+dry-run: datapythonista/minipandas: Minimal version of pandas for learning purposes
+dry-run: schmit/cme193-ipython-notebooks-lecture: CME 193 lecture on IPython, Pandas and Statsmodels
+dry-run: nygeog/python: Useful Python stuff - pandas here: 
+dry-run: man-group/arctic: High performance datastore for time series and tick data 
+dry-run: ericmjl/pyjanitor: Clean APIs for data cleaning. Python implementation of R package Janitor
+dry-run: alfremedpal/PandasBasketball: A Python module to scrape data from basketbal-reference.com and convert it to pandas data structures for analysis.
+dry-run: jmcnamara/pandas_xlsxwriter_charts: Using Pandas and XlsxWriter to create Excel charts
+dry-run: dexplo/dexplo: Data exploration library with a pandas-like API
+dry-run: voice32/stock_market_indicators: A small Python library with most common stock market indicators
+dry-run: briwilcox/Concurrent-Pandas: Concurrent Pandas is a Python Library that allows you to use Pandas to concurrently download bulk data using threads or processes.
+dry-run: PythonProgramming/Pandas-Basics-with-2.7: http://pythonprogramming.net/pandas-saving-reading-csv-file/
+dry-run: Florents-Tselai/pandas-sets: Set-oriented Operations in Pandas
+dry-run: TyberiusPrime/pyggplot: Pythonic wrapper for R's ggplot using rpy2 and pandas
+dry-run: sngyai/Sequoia: A股自动选股程序，实现了海龟交易法则、缠中说禅牛市买点，以及其他若干种技术形态
+dry-run: metrilyx/python-opentsdb: OpenTSDB python client with pandas support.
+dry-run: FAST-HEP/fast-carpenter: Helping turn your trees into tables (ie. reads ROOT TTrees, writes summary Pandas DataFrames)
+dry-run: femtotrader/pandas_datareaders_unofficial: [DEPRECATED] Unofficial Python Pandas DataReader objects with requests and requests_cache
+dry-run: thombashi/pytablewriter: pytablewriter is a Python library to write a table in various formats: CSV / Elasticsearch / HTML / JavaScript / JSON / LaTeX / LDJSON / LTSV / Markdown / MediaWiki / NumPy / Excel / Pandas / Python / reStructuredText / SQLite / TOML / TSV.
+dry-run: paulQuei/pandas_tutorial: Source code for pandas tutorial
+dry-run: rgieseke/pandas-datapackage-reader: Data Package reader for Pandas
+dry-run: rubenafo/technify: Stock analysis framework using pandas and ta-lib
+dry-run: commit-live-students/090-compare-pandas-series: 
+dry-run: ibmdbanalytics/ibmdbpy: A Pandas-like SQL-wrapper for in-database analytics with IBM Db2.
+dry-run: addisonlynch/iexfinance: Python SDK for IEX Cloud
+dry-run: justdjango/My_Dashboard: A dashboard powered by Django, showing a notepad, scraping news articles and finance data with dash.py
+dry-run: frictionlessdata/tableschema-pandas-py: Generate Pandas frames, load and extract data, based on JSON Table Schema descriptors.
+dry-run: dimenwarper/chainlearn: Mini module with syntax sugar for pandas/sklearn
+dry-run: pandas-dev/pandas-compat: API compatibility for pandas downstream
+dry-run: buchs-kevin/Pandas-Excel-Example: Example of reading/writing Excel files from Pandas/Python
+dry-run: Coldsp33d/stackoverflow-pandas-canonicals: A directory listing of all my pandas canonicals on Stack Overflow to date.
+dry-run: commit-live-students/089-arithmetic-on-pandas-series: 
+dry-run: PhantomInsights/mexican-government-report: Text Mining on the 2019 Mexican Government Report, covering from extracting text from a PDF file to plotting the results.
+dry-run: Alivon/Panda-Learning: 学习强国 xuexiqiangguo  全网最好用学习强国助手：Panda_Learning 萌萌的熊猫帮你搞定学习强国
+dry-run: balzer82/Pandas-NMEA: Parse NMEA Sentences with Python Pandas
+dry-run: niosh-mining/obsplus: A Pandas-Centric ObsPy Expansion Pack
+dry-run: amirziai/flatten: Flatten JSON in Python
+dry-run: Squarespace/datasheets: Read data from, write data to, and modify the formatting of Google Sheets
+dry-run: hpk42/numpyson: serializer extending jsonpickle to deal with numpy/pandas types
+dry-run: ceewick/glassdoorScraper: Scapes glassdoor.com company reviews. Create Pandas DF and also CSV w/ output
+dry-run: jbarnoud/panedr: Reads Gromacs EDR file to populate a pandas dataframe
+dry-run: instacart/jardin: A pandas.DataFrame-based ORM.
+dry-run: AndyLPK247/python-testing-101: Example projects for the Python Testing 101 series from Automation Panda
+dry-run: Black-Milk/Dash-Docset: A place for dash docsets. Includes scipy, numpy, pandas, scikit-learn, scikit-image,...
+dry-run: jwass/mixpandas: Get Mixpanel event data to Pandas for custom analysis
+dry-run: daviskirk/german-holidays: German holiday calendars for pandas
+dry-run: alvarodemig/DataScience-webapp-with-flask: Data Science webapp to show some of the capabilities of Flask and libraries such as sklearn, pandas, matplotlib, seaborn...
+dry-run: facultyai/boltzmannclean: Fill missing values in a Pandas DataFrame using a Restricted Boltzmann Machine
+dry-run: mbonvini/EnergyAnalysisWithPandas: Analyze energy data with Python and Pandas
+dry-run: bbfamily/abu: 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构
+dry-run: jwfu/get_google_data: Gets intraday data (including realtime on certain exchanges) from Google Finance and returns a Pandas Dataframe.
+dry-run: ecerami/hello_flask: Simplest example of flask, pandas and plotly.
+dry-run: radujica/baloo: The bare necessities of Pandas on the Weld runtime
+dry-run: machow/siuba: Python library for using dplyr like syntax with pandas and SQL
+dry-run: Zsailer/nx_altair: Draw NetworkX graphs with Altair
+dry-run: biocore-ntnu/pyranges: (beta) Performant Pythonic GenomicRanges
+dry-run: zhangjuefei/mentat: A machine learning library build on python, numpy and pandas.
+dry-run: RitwikGA/GoogleAnalytics-Pandas-Sheet: Get GA data via Google Analytics Reporting API v4 in Python Pandas & Export it to Spreadsheet via pygsheets.
+dry-run: aarshayj/easyML: A Python Package for data processing and building ML models, primarily based on pandas and sklearn libraries.
+dry-run: tum-ens/urbs: A linear optimisation model for distributed energy systems
+dry-run: censusreporter/census-pandas: For now, idle exploration around making it easier to use the pandas library to analyze Census data.
+dry-run: simonw/csvs-to-sqlite: Convert CSV files into a SQLite database
+dry-run: xieqihui/pandas-multiprocess: A Python package to process Pandas Dataframe using multi-processing
+dry-run: beltashazzer/jmpy: Quick plotting and data visualization of pandas and numpy data.
+dry-run: Jasonhy/ProductAnalysis: 抓取zol数据,django-haystack实现全文搜索,bokeh进行数据可视化,pandas进行数据分析
+dry-run: mirnylab/bioframe: Pandas utilities for tab-delimited and other genomic data files
+dry-run: wiktorski/opentsdb_pandas: This module provides methods to fetch data from OpenTSDB HTTP interface and convert them into Pandas Timeseries object.
+dry-run: vatsan/pandas_via_psql: Invoke Pandas plotting by piping in SQL output via PSQL (Can be used with Postgres or Greenplum or any SQL engine).
+dry-run: equinor/ecl2df: Pandas Dataframe access to Eclipse input and output files
+dry-run: dguest/pandamonium: Command line scripts to parse panda web api
+dry-run: toddheitmann/PetroPy: A petrophysics python package for geoscience python computing of conventional and unconventional formation evaluation. Reads las files and creates a pandas dataframe of the log data. Includes a basic petrophysical workflow and a simple log viewer based on XML templates.
+dry-run: sdpython/pandas_streaming: Streaming API for pandas applied to big datasets 
+dry-run: PhantomInsights/subreddit-analyzer: A comprehensive Data and Text Mining workflow for submissions and comments from any given public subreddit.
+dry-run: upalr/Python-camp: 
+dry-run: lgmoneda/greenpyce: Utilities for the Python data analysis library Pandas
+dry-run: WZBSocialScienceCenter/pandas-excel-styler: Styling individual cells in Excel output files created with pandas.
+dry-run: holoviz/spatialpandas: Pandas extension arrays for spatial/geometric operations
+dry-run: sterry24/dfViewer: A PyQt GUI for visualizing pandas dataframes in table format
+dry-run: Prooffreader/word_list_tools: Python and pandas tools to perform various analyses on different types of word lists
+dry-run: emreturan/heikin-ashi: Heikin-Ashi candlesticks for pandas dataframe.
+dry-run: dov/dcmpandas: A python library for loading dicom directories into pandas
+dry-run: dev-branch/python-numpy-pandas-evaluation: 
+dry-run: xugongli/poi_spider: 使用scrapy采集中国指定行政区域内的所有兴趣点数据，如学校、便利店、甜品店等
+dry-run: zbarge/zeex: Spreadsheet Power Tools GUI - Pandas, PySide, SQLAlchemy
+dry-run: tstaunton/python_pandas: 
+dry-run: guptachetan1997/Episodes: Self Hosted TV show Episode tracker and recommender built using django, bootstrap4.
+dry-run: has2k1/plydata: A grammar for data manipulation in Python
+dry-run: panda-re/symbll: Symbolic execution for LLVM traces produced by PANDA
+dry-run: mfitzp/padua: Proteomic Data Analysis with Python (pandas, scikit-learn, numpy, scipy)
+dry-run: Heerozh/pandas_talib: A Python Pandas implementation of technical indicators and pass all comparison test with the TA-Lib
+dry-run: facultyai/ipydataclean: Interactive cleaning for Pandas DataFrames
+dry-run: cwade/pandas_oracle: This package includes methods for:  1) Running a specified query, passed in as a string, on an Oracle database and returning the result to a Pandas data frame. 2) Executing a command with no return data. 3) Inserting the contents of a Pandas data frame into an Oracle database table.
+dry-run: jizhang/pandas-tidy-data: Pandas and Tidy Data
+dry-run: kundan-git/apache-spark-pyspark-sql: Data analysis using Apache Spark, pyspark-sql and Pandas.
+dry-run: PhantomInsights/baby-names-analysis: Data ETL & Analysis on the dataset 'Baby Names from Social Security Card Applications - National Data'.
+dry-run: jnmclarty/sympa: Symbolic math for Pandas
+dry-run: cznewt/python-libmetric: Python library for querying metrics from Graphite, InfluxDb, Prometheus and RRD into Pandas DataFrames with simple alarming functionality.
+dry-run: anarayanan86/Microsoft_DAT210x: Datasets and solutions for the Programming Assignments for the Microsoft DAT210X course, EdX, July-August 2016.
+dry-run: ResidentMario/checkpoints: Partial result caching for pandas in Python.
+dry-run: ariarijp/pandash: Convert Redash Query Result as Pandas DataFrame
+dry-run: Yorko/mlcourse.ai: Open Machine Learning Course
+dry-run: havocesp/pantulipy: Pandas over Tulipy library
+dry-run: HeroadZ/panda-bamboos-rank: python crawl for panda bamboos rank
+dry-run: QuackenbushLab/pypanda: Python implementation of PANDA and LIONESS
+dry-run: lyveng/pandas-hbase: Pandas Helper Library for reading and writing DataFrames from and to HBase.
+dry-run: clembou/behave-pandas: Utility package for the Behave BDD testing framework, to make converting gherkin tables to and from pandas data frames a breeze.
+dry-run: scls19fr/pandas_degreedays: A Python package to calculate degree days (DD or in french DJU - degré jour unifié) from measured outdoor temperatures and to make it possible to quantify drift of energy consumption for heating (or cooling)
+dry-run: shivam5992/dupandas: :bar_chart: python package for performing deduplication using flexible text matching and cleaning in pandas dataframe
+dry-run: cloudacademy/fraud-detection: Fraud Detection model build with Python (numpy, scipy, pandas, scikit-learn), based on anonymized credit card transactions. The dataset is publicly available here: https://clouda-datasets.s3.amazonaws.com/creditcard.csv.zip
+dry-run: ghl3/bamboo: Data manipulation and plotting using python and Pandas
+dry-run: ntrang086/analyze_financial_data: analyze financial data using python: numpy, pandas, etc.
+dry-run: titipata/yelp_dataset_challenge: Play around with Yelp dataset in Python (in progress and very messy repo)
+dry-run: rsheftel/raccoon: Python DataFrame with fast insert and appends
+dry-run: pjankiewicz/PandasSelector: 
+dry-run: bashtage/pandas-stash: Save and load entire workspaces containins pandas objects and numpy arrays
+dry-run: seanh/PandaSteer: Autonomous steering behaviours and simple terrain generation for Panda3D.
+dry-run: bufferapp/rsdf: Some functions to help Pandas DataFrames communicate with Redshift
+dry-run: HaraldHeitmann/Pybi: GUI to do visualization based on pandas
+dry-run: zhoudayang/read_csv_file: 利用pandas读取csv文件，并保存到mysql数据库
+dry-run: pandastream/panda_client_python: A Python implementation of the Panda REST interface
+dry-run: cmap/cmapPy: Assorted tools for interacting with .gct, .gctx files and other Connectivity Map (Broad Institute) data/tools
+dry-run: webermarcolivier/xlsxpandasformatter: Deals with the limitations of formatting when using Pandas dataframe and xlsxwriter to export to Excel format. Allows to apply format to cells, columns, or rows.
+dry-run: AndrewRPorter/yahoo-historical: Downloads historical EOD (end of day) prices from yahoo finance
+dry-run: ZHmao/forkkk: pandas操作Excel
+dry-run: paudan/data-faker: Dataset generator for Pandas
+dry-run: RomelTorres/alpha_vantage: A python wrapper for Alpha Vantage API for financial data.
+dry-run: predicador37/pyjstat: pyjstat is a python library for JSON-stat formatted data manipulation which allows reading and writing JSON-stat [1] format with python,using the DataFrame structures provided by the widely accepted pandas library
+dry-run: man-group/PyBloqs: 
+dry-run: luca-dex/pyTSA: Time Series analysis with pandas
+dry-run: amancevice/redpanda: Pandas-SQLAlchemy integration
+dry-run: bailaohe/parade: A simple and out-of-box toolkit to handle data work
+dry-run: pydata/pandas-design: DEPRECATED. See https://github.com/pandas-dev/pandas2
+dry-run: phoehne/EconoMetrics: Some useful python libraries (requires matplotlib and pandas)
+dry-run: Quansight-Labs/xndframes: Pandas ExtensionDType/Array backed by xnd
+dry-run: tappoz/FundamentalAnalysis: Fundamental analysis for stocks and shares. ETL processes written in python using pandas
+dry-run: jbochi/sandals: SQL for Pandas
+dry-run: davidvi/pypanda: Python implementation of PANDA (Passing Attributes between Networks for Data Assimilation)
+dry-run: EricSchles/drifter_ml: A machine learning testing framework for sklearn and pandas.  The goal is to help folks assess whether things have changed over time.
+dry-run: lawlesst/sparql-dataframe: Convert SPARQL results to a pandas dataframe
+dry-run: cruor99/sadpandareader: A Kivy app for transcending the sad panda.
+dry-run: bfolkens/pandas-datareader-gdax: GDAX data for Pandas in the style of DataReader
+dry-run: DamCB/tyssue: An epithelium simulation library
+dry-run: kv-kunalvyas/sfcc: San Francisco Crime Classification: Kaggle competition-project to predict the probability of crime category using time and location
+dry-run: willie8338/Fitbit: Python/Pandas/Scikit-learn utilities and wrappers for analyzing Fitbit files
+dry-run: Prooffreader/google_ngrams_py: A class to fetch results from Google Ngrams Viewer and return them as pandas dataframes
+dry-run: foolcage/fooltrader: a modular quant framework 
+dry-run: foerstner-lab/gffpandas: Parse GFF3 into Pandas dataframes
+dry-run: ksopyla/Pandas_Worldbank_GDP: World Bank GDP analysis of 10 European country with some plots
+dry-run: omarsar/data_mining_hw_1: Contains information for the first assignment of Data Mining 2017 Fall, NTHU.
+dry-run: codingforentrepreneurs/Web-Scraping: Learn how to leverage Python's amazing tools to scrape data from other websites.  The end goal of this course is to scrape blogs to analyze trending keywords and phrases.  We'll be using Python 3.6, Requests, BeautifulSoup, Asyncio, Pandas, Numpy, and more!
+dry-run: aschleg/petpy: Python wrapper for the Petfinder API. Includes methods for parsing output JSON into pandas DataFrame objects for easier analysis.
+dry-run: neelpatel05/periodic-table-api: API to fetch elements of the periodic table in JSON format. Uses Pandas for dumping .csv data to .json and Flask for API Integration. Deployed on "pythonanywhere.com".
+dry-run: aiguofer/sql_connectors: A simple wrapper for SQL connections using SQLAlchemy and Pandas read_sql to standardize SQL workflow with multiple data sources.
+dry-run: havocesp/pandaxt: A Python 3 "ccxt" wrapper over "Pandas" lib.
+dry-run: FCrSTATS/SportsCodePy: Converts pandas dataframe to SportsCode ready XML files
+dry-run: imsaiful/analyze-paytm-wallet: Analyze Your's paytm wallet using Python Pandas Library
+dry-run: dask/pandas-streaming: 
+dry-run: quantrocket-llc/moonshot: Vectorized backtester and trading engine for QuantRocket
+dry-run: orenovadia/pandas_explode: Row explode utility for Pandas DataFrame (similar to UNNEST or explode)
+dry-run: tgsmith61591/skutil: NOTE: skutil is now deprecated. See its sister project: https://github.com/tgsmith61591/skoot. Original description: A set of scikit-learn and h2o extension classes (as well as caret classes for python). See more here: https://tgsmith61591.github.io/skutil
+dry-run: devmece/pcap2frame: Converts a PCAP file to a PANDAS or SFRAME data frame
+dry-run: lexual/sitecat-py: Python and Pandas bindings for SiteCatalyst part of Adobe's Marketing Cloud
+dry-run: garicchi/arff2pandas: A converter arff to pandas
+dry-run: mouradmourafiq/pandas2sklearn: An integration of pandas dataframes with scikit learn.
+dry-run: hitcszq/alibaba_tianchi: 天池大数据竞赛，新人离线赛。python(pandas,numpy,sklearn,lasagne....)
+dry-run: alige32/aqi: aqi天气信息爬虫、清洗-scrapy+scrapy-redis+selenium+pandas+matplotlib
+dry-run: lsst/pandas: an EUPS stub to check that pandas, bottleneck, and numexpr are available
+dry-run: lixi5338619/K-means-: 使用pandas 、numpy 、K-means算法、matplotlib分析航空公司客户价值
+dry-run: HBU/PythonLearning: pyCharm pandas
+dry-run: codeforsanjose/Indicators: Using Pandas Python to Parse Census Data
+dry-run: toddbirchard/plotlydash-flask-tutorial: 📊📉Source code for the accompanying tutorial.
+dry-run: xugongli/bankflow_caculation: 一个网银流水自动化计算工具，可以根据从银行导出的电子流水根据既定的规则快速计算其有效流水
+dry-run: zhengze/sklearn-predict: 机器学习数据，预测趋势并画图
+dry-run: TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials: A comprehensive list of Deep Learning / Artificial Intelligence and Machine Learning tutorials - rapidly expanding into areas of AI/Deep Learning / Machine Vision / NLP and industry specific areas such as Automotives, Retail, Pharma, Medicine, Healthcare by Tarry Singh until at-least 2020 until he finishes his Ph.D. (which might end up being inter-stellar cosmic networks! Who knows! 😀)
+dry-run: jpschultz/pygs: Pandas and Google Sheets
+dry-run: ericfourrier/auto-clean: Provide helpers in python (pandas and numpy) to perform automated cleaning and pre-processing steps.
+dry-run: zyxue/ncbitax2lin: 🐞 Convert NCBI taxonomy dump into lineages
+dry-run: reubano/meza: A Python toolkit for processing tabular data
+dry-run: ojdo/pyomo-example: "Hello World!" example for combining Pyomo (Coopr 3.5 or Pyomo 4) and Pandas for mathematical optimisation
+dry-run: scivision/georinex: Python RINEX 2/3 NAV/OBS reader / batch conversion to HDF5 with C-like speed using xarray
+dry-run: sealevelresearch/sea-level-api: JSON API to tide and surge predictions for multiple tide gauge locations
+dry-run: chinchon/python-tableau-tde: build Tableau Data Extract (.tde) from Pandas DataFrame using Tableau SDK
+dry-run: mewwts/feng: feng - feature engineering for machine-learning champions
+dry-run: jpgxs/python-sadf: Parse sysstat (sa/sar) output into Pandas Dataframes
+dry-run: abarto/pandas-drf-tools-test: A test project for the pandas-drf-tools package
+dry-run: harris-ippp/05-pandas: Homework 5: Pandas
+dry-run: scrapinghub/arche:  Analyze scraped data
+dry-run: harmslab/phylogenetics: A Python API for managing phylogenetics projects
+dry-run: biolab/orange3: 🍊 :bar_chart: :bulb: Orange: Interactive data analysis https://orange.biolab.si
+dry-run: mkgiitr/redshift_tool: Elegant data load from Pandas to Redshift.
+dry-run: stefanw/diligent-pandas: Data proofing library for pandas
+dry-run: cdtait/betfair_pandas: Python Pandas adaptor for Betfair
+dry-run: simonUU/PyrooFit: Python wrapper for RooFit to create fits easily with pandas DataFrames
+dry-run: njanakiev/folderstats: Python module that creates statistics from a folder structure
+dry-run: fernavid/xbrl-parse: Get historical fundamental data time series in Pandas Dataframes from SEC Edgar for any company
+dry-run: tomasd/pandas-sqlalchemy-pivot: Pivot tables for sqlalchemy
+dry-run: geraybos/FastBacktester: A fast Python trading strategy backtesting platform based on pandas/matplotlib etc, supports multi-instruments strategies.
+dry-run: xhlow/udacity-bikeshare-project: Python script written to explore US bikeshare data
+dry-run: ResidentMario/advanced-pandas-exercises: https://www.kaggle.com/residentmario/advanced-pandas-exercises
+dry-run: Azure-Samples/functions-python-data-cleaning-pipeline: Using Python for Azure Functions to clean and preprocess data using pandas through a Blob and Event grid messaging pipeline
+dry-run: direvius/libgraphite: Python library for querying metrics from Graphite into Pandas DataFrames
+dry-run: zvtvz/zvt: a very lightweight quant framework
+dry-run: koushalkh/ML-LAB: A simplified version of all ML programs.
+dry-run: WinVector/data_algebra: Codd method-chained SQL generator and Pandas data processing in Python.
+dry-run: jrios6/Linear-Regression: Linear Regression Implementation using pandas, matplotlib and sklearn.linear_model
+dry-run: SamuraiT/pandas-rs: :panda_face: Pandas extension for PostgreSQL and RedShift
+dry-run: dalejung/pandas-composition: Pandas Composition/Inheritance
+dry-run: joeddav/get_smarties: Dummy variable generation with fit/transform capabilities
+dry-run: mlshapiro/read-protobuf: Small library to read serialized protobuf(s) directly into Pandas Dataframe
+dry-run: B-McBean/Python-Class: An introduction to Python, including the NumPy and Pandas package. 
+dry-run: spidezad/google_search_module_alt: Alternative google search module using python pandas
+dry-run: jasti/CrossfitScraper: A Python parser that iteratively scrapes the WODs on Crossfit.com since 2002 and saves them to a tab separated file. Uses BeautifulSoup and Pandas.
+dry-run: GraySilver/wencai: This is a wencai crawler.（i问财的策略回测接口的Pythonic工具包）
+dry-run: nhanloukiala/Panda2Neo4j: Neo4J graph's Batch and real-time data import from Pandas
+dry-run: ranaroussi/monthly-returns-heatmap: Python Monthly Returns Heatmap (DEPRECATED! Use QuantStats instead)
+dry-run: andrewkittredge/vector_cache: cache pandas.DataFrames
+dry-run: GW2Raidar/gw2raidar: A log parsing website for Guild Wars 2 combat logs
+dry-run: tgsmith61591/skoot: A package for data science practitioners. This library implements a number of helpful, common data transformations with a scikit-learn friendly interface in an effort to expedite the modeling process.
+dry-run: CityofSantaMonica/mds-provider: Python tools for working with MDS Provider data
+dry-run: cdlwhm1217096231/pandas_tutorials: Pandas基础教程
+dry-run: yhat/pandaslite: 
+dry-run: mrthetkhine/MLFromScratch: Machine Learning algorithm from scratch just using pandas and lumpy
+dry-run: Widukind/widukind.py.pandaSDMX: Widukind connector for PandaSDMX
+dry-run: yoshiso/fancytable: fancy pandas dataframe
+dry-run: ksodipo/DataWiz: DataWiz takes all the headache out of cleaning and processing data so you can focus better on building the best ML/AI models. Built on top of the pandas/numpy stack.
+dry-run: dwhitena/analyze-visualize-model-telecom-italia: Python (pandas, statsmodels, etc.) to read, aggregate, store, analyze, and model Telecom Italia data from CDRs.
+dry-run: adrivsh/wb_api_wrapper: Higher-level functions to call world bank API from python pandas
+dry-run: benshanks/pygama: Python based package for decoding ORCA data and processing it with pandas
+dry-run: ruddra/docker-django: A complete docker package for deploying django
+dry-run: cid-harvard/pandas-to-postgres: Copy Pandas DataFrames and HDF5 files to PostgreSQL database
+dry-run: alpacahq/pymarketstore: Python driver for MarketStore
+dry-run: datadesk/census-data-downloader: Download U.S. census data and reformat it for humans
+dry-run: shoyer/pandas-magic: 
+dry-run: renewables-ninja/gsee: GSEE: Global Solar Energy Estimator
+dry-run: mdb52/Pivot_Table_GUI: Imports a CSV data file, allows real time viewing of data via figures formed from Pivot Tables.  Python + Pandas + PyQt.
+dry-run: atandy/tweet_analyzer: Analyze a user's timeline of Tweets with NLTK and Pandas DataFrames.
+dry-run: dannyluong408/Python-Applications: Assorted Python 3 Apps using popular libraries such as Pandas, OpenCV, Numpy, Folium, Tkinkter, Psycopg2 etc
+dry-run: patrick-llgc/pandas-exercises: modified from Wes McKinney's video tutorial
+dry-run: Morgan243/PyCAIM: Python implementation of the CAIM (class-attribute interdependence maximization) algorithm. Requires Pandas and Numpy.
+dry-run: facultyai/marshmallow-dataframe: Marshmallow Schema generator for Pandas DataFrames
+dry-run: toaco/carry: Python ETL(Extract-Transform-Load) tool / Data migration tool
+dry-run: utah-geological-survey/WellApplication: Tools used to manipulate hydrograph data; Solinst xles to pandas dataframe; hydrograph analysis; hydrology; Gannt Charts; Piper diagrams; hydrogeology; wells; groundwater; USGS data; WQP data;
+dry-run: 5hirish/adam_qas: ADAM - A Question Answering System. Inspired from IBM Watson
+dry-run: seahboonsiew/pyspark-csv: An external PySpark module that works like R's read.csv or Panda's read_csv, with automatic type inference and null value handling. Parses csv data into SchemaRDD. No installation required, simply include pyspark_csv.py via SparkContext.
+dry-run: cemoody/lambda-chainer: AWS Lambda function with Pandas, Sklearn, Scipy, Numpy and Chainer
+dry-run: JoinQuant/jqdatasdk: 简单易用的量化金融数据包(easy utility for getting financial market data of China)
+dry-run: MaxHalford/prince: :crown: Python factor analysis library (PCA, CA, MCA, MFA, FAMD)
+dry-run: balzer82/DKB-Kontoauszug-Visualizer: Analyze .csv from your DKB bank account with Python Pandas
+dry-run: jJimo/Trajectory-Analysis-and-Classification-in-Python-Pandas-and-Scikit-Learn-: Read and form trajectories. Find most similar using similarity measures such as DTW and LCSS. Then we classify them.
+dry-run: isidroc/RDkitTutorial: Tutorial on the usage of Rdkit, Pandas, sklearn, machine learning, descriptor calculation, etc.. in the context of bioactivity predictive modeling
+dry-run: FAST-HEP/fast-plotter: Manipulate binned pandas dataframes into plots
+dry-run: crosenth/csvpandas: Interface to manipulate csv files as Pandas DataFrames.
+dry-run: esc/graphite2pandas: Script to convert Graphite response to Pandas DataFrame.
+dry-run: PanDAWMS/panda-common: common package for panda components
+dry-run: lb2281075105/Python-WeChat-ItChat: 微信机器人，基于Python itchat接口功能实例展示：01-itchat获取微信好友或者微信群分享文章、02-itchat获取微信公众号文章、03-itchat监听微信公众号发送的文章、04 itchat监听微信群或好友撤回的消息、05 itchat获得微信好友信息以及表图对比、06 python打印出微信被删除好友、07 itchat自动回复好友、08 itchat微信好友个性签名词云图、09 itchat微信好友性别比例、10 微信群或微信好友撤回消息拦截、11 itchat微信群或好友之间转发消息
+dry-run: JuanCorp/Pandas-Optimizer: Optimize pandas DataFrame data types for efficient memory use.
+dry-run: jcmgray/xyzpy: Efficiently generate and analyse high dimensional data.
+dry-run: chinuy/stock-price-prediction: A practice project for machine learning and stop price prediction
+dry-run: shenmengyuan/Python_Biotrainee: Panda Shen's Python learning scripts
+dry-run: Alexmhack/py_handles_csv: reading and writing CSV files in python using csv and pandas module
+dry-run: ssinha3/Community_Detection_Python_Numpy_Pandas_igraph: Finding Overlapping Communities in Social Networks
+dry-run: rubik/sklearn-pdtransform: Sklearn transformers that work with Pandas dataframes
+dry-run: murphy214/pipeleaflet: Simple Methodologies for parsing JS/HTML for the easiest visualization. 
+dry-run: ShujiaHuang/geneview: A python package for genomics data visualization by using matplotlib
+dry-run: jeffhsu3/genda: genda a genetics library in pandas
+dry-run: ebranlard/pyDatView: A crossplatform GUI to plot tabulated data from files (e.g. CSV, Excel, OpenFAST, HAWC2, Flex...), or python pandas dataframes
+dry-run: RafalKucharskiPK/visum_to_pandas: python scripts to parse visum .net and .dmd file to pandas and store as .csv files 
+dry-run: qxzzxq/pandas-cassandra: 🐼Pandas with Cassandra!
+dry-run: augustin-barillec/google-pandas-load: Wrapper for transferring big data from A to B, where A and B are distinct and chosen between BigQuery, Storage, a local folder and pandas.
+dry-run: shaypal5/s3bp: Read and write Python objects to S3, caching them on your hard drive to avoid unnecessary IO.
+dry-run: ryfeus/lambda-packs: Precompiled packages for AWS Lambda
+dry-run: nateMJ/Data-analysis-using-Pandas: 
+dry-run: GeorgeSeif/Data-Science-Python: Data Science analysis and visualization using Python.
+dry-run: afraenkel/babypandas: Pandas data-analysis library with a restricted API
+dry-run: ianmcook/dplyr-pandas: TriPython talk: dplyr-Style Data Manipulation with pandas
+dry-run: yhat/dummipy: Categorical variables for pandas DataFrames and scikit-learn
+dry-run: conor10/examples: Example code from my blog posts
+dry-run: AkshatM/BoxOfficeMojo-Data: Parsing utility to convert BoxOfficeMojo-like tables to pandas DataFrame objects for analysis
+dry-run: bopo/tdx2csv: 一个把通达信导出的 txt 文件转换成适合 pandas 使用的 csv 文件
+dry-run: ZhaoJ9014/Head-Pose-Estimator.Caffe: Head Pose Estimator on Caffe
+dry-run: jephdo/grigri: Extra tools and utilities for doing data analysis with numpy, pandas, etc.
+dry-run: awslabs/aws-data-wrangler: Utility belt to handle data on AWS.
+dry-run: PythonCharmers/starborn: Starborn: Seaborn-compatible data visualization for Python based on Altair
+dry-run: medo/Pandas-Farm: Parallelize pandas operations easily on your personal small cluster
+dry-run: alan-turing-institute/xpandas: Universal 1d/2d data containers with Transformers functionality for data analysis.
+dry-run: lexual/babypandas: Very quick hack, making a pure python implementation of Pandas' DataFrame/Series (very incomplete & hacky!!)
+dry-run: pandastream/panda_example_django: Example Panda client, written in Python as a Django app
+dry-run: komax/gpx-pandas: Load gpx files into pandas
+dry-run: dexplo/pandas_cub: 
+dry-run: szinck/pandalert: Graphite -> Pandas -> PagerDuty
+dry-run: alphatwirl/alphatwirl: A Python library for summarizing event data into multivariate categorical data
+dry-run: awburgess/clean_pandas: Pandas accessor for replacing, removing, or encrypting a DataFrame or Series that contains Personally Identifiable Information (PII) or Protected Health Information (PHI)
+dry-run: zdenulo/gae_flex_pandas: Simple example how to use together Google App Engine Standard and Flexible Environment in one project.
+dry-run: jschovan/pbm: PanDA Brokerage Monitor
+dry-run: ivansabik/panditas: Data pipelines using Pandas
+dry-run: haotin/5weeksForPython: somethings for pandas
+dry-run: devolksbank/dvb.datascience: A python data science pipeline package
+dry-run: liuchunhuicanfly/learning-python: python, pandas
+dry-run: OutOfGods/MoneyAccounter: Monney accounter, that uses pandas to store data.
+dry-run: NikitaZakharov/django-pandasio: DataFrames serialization and validation using django-rest-framework serializer interface
+dry-run: bboczeng/Nyxar: A Modular platform to perform advanced back-testing in today's 24/7 crypto-currency market
+dry-run: wabu/pyhive: easy to use interface for hive yielding pandas DataFrames
+dry-run: AartGoossens/athletic_pandas: Extension of Pandas that provides workout analysis tools
+dry-run: tksmd/stat-analysis-for-beginners: Python Examples of Statistical Analysis using pandas, NumPy and others
+dry-run: Bobe24/Dataframe2libffm: Change pandas Dataframe data format to libffm data format
+dry-run: amacd31/phildb: Timeseries database
+dry-run: danielvdende/opulent-pandas: Opulent-Pandas is a schema validation packages aimed specifically at validating the schema of pandas dataframes
+dry-run: jensolson/CFTC-COT: Parses historical and current CFTC Commitments of Traders reports into easy-to-use pandas dataframes
+dry-run: fahd09/xplore: Exploratory Data Analysis toolkit for Pandas tables to make EDA easier.
+dry-run: DS-100/Pandas-Grader: Okpy compatible autograder that uses Gofer Grader underneath, for DS100
+dry-run: RicardoMoya/Example_Pandas: Pandas es una librería de python destinada al análisis de datos, que proporciona unas estructuras de datos flexibles y que permiten trabajar con ellos de forma muy eficiente.
+dry-run: aysebilgegunduz/IntrotoScientificPython: 
+dry-run: fabid/lambdasheets: Google Sheets + pandas + AWS Lambda
+dry-run: deeplook/pandas-100: An emerging prototypical clone of https://github.com/deeplook/numpy-100, but for pandas.
+dry-run: yubessy/pdprpr: PanDas PRePRocessor: Preprocess Pandas Objects for Machine Learning
+dry-run: pmbaumgartner/excelify: IPython Magic for exporting pandas objects to Excel
+dry-run: StephenLujan/Panda-3d-Procedural-Terrain-Engine: Panda 3d Procedural Terrain Engine
+dry-run: mmaelicke/hydrobox: hydrological preprocessing and analysis toolbox build upon pandas and numpy
+dry-run: balzer82/OSM2Pandas: Overpass-API to Pandas Dataframe
+dry-run: rcg798/NEISS: Exploring NEISS data with pandas
+dry-run: jaykay12/CricAI: Desktop App & Web App for Cricket Outcome Prediction.
+dry-run: mzmttks/jpmarket: Pandas DataReader extension for Japanese market data. 
+dry-run: AYIDouble/Pandas-Python-Data-Analysis-Playground: 🐍 Data Analysis with the Pandas Library & Notes 📊📈
+dry-run: AndyLPK247/smartbear-hands-on-ui-testing-python: Hands-On Web UI Testing with Python | SmartBear Webinar with Automation Panda | August 14, 2019
+dry-run: cbrebuild/pawprint: Event tracking using Pandas
+dry-run: shaypal5/pdutil: Utilities for pandas.
+dry-run: nrbontha/pd-validator: pandas DataFrame validation library
+dry-run: momijiame/pandas-should: pandas extension for asserting
+dry-run: cpcloud/dpyr: Python dplyr operations for SQL databases and pandas DataFrames
+dry-run: jmenglund/pandas-validation: A small Python library for validating data with pandas
+dry-run: daler/encode-dataframe: Convert UCSC's ENCODE metadata into pandas DataFrames
+dry-run: Liza-S/DAT208x-Introduction-to-Python-for-Data-Science-by-Edx: My solution of tasks of course "DAT208x Introduction to Python for Data Science" 
+dry-run: dimbi/Principle-of-Urban-Informatics: All codes from Principle of urban informatics class from fall semester 2014. This includes introduction to Python data structure, Pandas package, GIS python interface and bokeh map, MySql and visualization concepts with python matplotlib package
+dry-run: mamonu/bumblebee: Natural language processing (NLP) & text mining functions / preprocessors / transformers, compatible with pandas and scikit-learn Pipelines. 
+dry-run: tschm/PandasMonitor: A simple Monitor for Pandas DataFrame objects
+dry-run: andrew0harney/EEG-Multi-Channel-Utility: Python tool for managing muti-channel data/signals with events/epochs  using Pandas
+dry-run: nirdizati-research/predict-python: A Web Application to Support Research in Predictive Monitoring Tasks (docs: https://bit.ly/2XdXmth)
+dry-run: ianozsvald/dataframe_visualiser: Make simple high-level visualisations of a Pandas dataframe to help when starting new data projects
+dry-run: caseymm/dancing_pandas: 
+dry-run: Chippasaur/spotifyMe: spotifyMe is a thin client library for collecting spotify data into a Pandas Dataframe using Spotify Web API
+dry-run: tiamat-studios/pandascore-python: A pandascore.co API client library for Python
+dry-run: chandan-u/graph-based-recommendation-system:  building a recommendation system using graph search methodologies. We will be comparing these different approaches and closely observe the limitations of each.
+dry-run: serhii73/place2live: Analysis of the characteristics of different countries
+dry-run: oopsliu/Data-Cleaning-Tool: Process csv data using Python Pandas module
+dry-run: PhantomInsights/mexican-jobs-2018: Reddit bots, web scraper and utility scripts used to perform EDA on thousands of job listings from the official Mexican job board.
+dry-run: jfenton/stats: Pandas implementation of SPL 'stats' command.
+dry-run: ScottfreeLLC/AlphaPy: Automated Machine Learning [AutoML] with Python, scikit-learn, and Keras
+dry-run: lixiangwang/optimization-of-pandas-for-large-CSV: optimization of pandas for large CSV
+dry-run: austinlasseter/basic-dash-pandas: 
+dry-run: 0Hughman0/xl_link: Excel speadsheets made easy through Pandas magic.
+dry-run: Zsailer/pyasr: Ancestral Sequence Reconstruction in Python
+dry-run: JDASoftwareGroup/rle-array: Run-length encoded arrays for pandas.
+dry-run: srp98/Movie-Recommender-using-RBM: A Movie Recommender System using Restricted Boltzmann Machine (RBM), approach used is collaborative filtering.
+dry-run: murphy214/nlgeojson: Fastest, simplest, vanilla Pandas DF to geojson output.
+dry-run: pfitzpaddy/csv2pgsql: Import CSV to Postgresql using Pandas
+dry-run: davidastephens/pandas-accounting: Library for modelling financial statements using Pandas
+dry-run: MechLabEngineering/Tatort-Analyzer-ME: Analyze Twitter for #Tatort with Python Pandas and NLTK
+dry-run: YUNEEC/pyulgresample: Resample ulg-topics into pandas dataframe
+dry-run: balsagoth/pdetl: Python ETL framework based on Pandas
+dry-run: jsoma/fuzzy_pandas: Fuzzy matches and merging of datasets in pandas using csvmatch
+dry-run: pandas-dev/pandas-blog: Source for https://dev.pandas.io/pandas-blog
+dry-run: Automating-GIS-processes/Exercise-2: Exercise-2: Using pandas and geopandas to work with spatial data.
+dry-run: mtdefelice/ds-python_examples: Data Science in Python - Example scripts leveraging numpy, pandas, and matplotlib
+dry-run: gboeing/pynamical: Pynamical is a Python package for modeling and visualizing discrete nonlinear dynamical systems, chaos, and fractals.
+dry-run: InvestmentSystems/table-compositor: A xlsx and html rendering library for rendering data available in Pandas DataFrames.
+dry-run: jmausolf/Twitter_Tweet_Counter: Repository builds a pandas database of tweets given a hashtag query or list of hashtags. The results are written to a CSV.
+dry-run: SHKnudsen/Pandamo: A dynamo package that uses the popular Python data science library Pandas  
+dry-run: timkpaine/lantern: Data exploration glue
+dry-run: PyDataBlog/Coinsta: A Python package for acquiring both historical and current data of cryptocurrencies
+dry-run: hequan2017/pandaAdmin: panda 熊猫k8s管理平台  后端        https://github.com/hequan2017/panda 前端地址。
+dry-run: atandy/text_message_analysis: Analyze your IOs messages from your device with Pandas/NLTK.
+dry-run: adgaudio/pyspark_pandas: Pyspark + pandas.  This may get merged into the SparklingPandas project.
+dry-run: TaroballzChen/FOPPRplot: FOPPR data operate & plot online by PyQt5,matplotlib,pandas programing 
+dry-run: jimfulton/pheather: Persist pandas data frames in ZODB blobs in Feather format
+dry-run: fuyb1992/es_pandas: Read, write and update large scale pandas DataFrame with Elasticsearch
+dry-run: connectedblue/pdext: Framework for pandas extensions
+dry-run: santiment/sanpy: Santiment API Python Client
+dry-run: caiyunbin/pandas-data-analyse: 使用pandas进行数据分析的各式各样的操作，这是关于pandas学习的2000行代码，用以日后查询，其中的内容包括常用的excel功能，同时里面还加入了Python画图的库
+dry-run: wq/itertable: ⇔ IterTable is a Pythonic API for iterating through tabular data formats, including CSV, XLS, XML, and JSON.
+dry-run: MathSci/fecon236: Tools for financial economics. Curated wrapper over Python ecosystem. Source code for fecon235 Jupyter notebooks.
+dry-run: themattrix/panda-watching: Watch a panda - the camera moves with your head!
+dry-run: steveyx/SupportResistTradingTestUsingPandas: Test support resistance trading strategies using pandas
+dry-run: jvkersch/pandas-encoding: A natural encoding for Giant Pandas
+dry-run: yubessy/prepkit: Preprocessing pandas objects for machine learning
+dry-run: sunilgug/Candlestick_patterns: Returns pandas dataframe with candlestick patterns
+dry-run: gn03249822/Python-Financial-Analysis: Extract data directly from online sources such as Yahoo Finance using Pandas DataReader. Also the plotted graph is then embedded into a Flask web app
+dry-run: leondutoit/gogplot: use ggplot2 with pandas from python
+dry-run: dashee87/cluster-flag: Generate country flags with numpy and pandas
+dry-run: leahecole/pythonPandasRemoveModifyEmptyValues: Use Python Pandas to remove empty/null values or replace them with a space
+dry-run: lexual/pandas-love-ponies: .to_django() code for Pandas lives here in the short-term. Ideally will get the code into Pandas project code base if they're receptive to it.
+dry-run: MichaelAquilina/hashedindex: Python package provding an Inverted Index implementation using dictionaries
+dry-run: samzhang111/pandasheets: Google Sheets in a Pandas Dataframe interface
+dry-run: ThachNgocTran/PredictLiverPatientWithRandomForestAndLogisticRegression: Predict Liver Patient With Random Forest And Logistic Regression. Written in Python (with Scikit, Pandas, Seaborn).
+dry-run: jyguo1729/AirportsDelayModel: A visualization module based on neworkx and pandas. Check readme for documentations
+dry-run: leomrocha/data-analysis-exercises: Some airport data analysis, learning to use pandas, and comparison with pure python
+dry-run: INWTlab/dbrequests: python package built for easy use of raw SQL within python and pandas projects
+dry-run: MichaelStott/PandasDataframeGUIKivy: Kivy port of Dataframe GUI module. Original wxPython implementation can be found here: https://github.com/bluenote10/PandasDataFrameGUI
+dry-run: yuecen/elastic_funnel: 📊 Analysis tool for funnel visualization with log from Elasticsearch
+dry-run: visionjo/FIW_KRT: Families In the WIld: A Kinship Recogntion Toolbox.
+dry-run: tribeofai/toai: 
+dry-run: bittu08/pandas-memsql: In memory sql for Pandas,
+dry-run: LqNoob/data-science-ipython-notebooks: Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
+dry-run: alpacahq/pipeline-live: Pipeline Extension for Live Trading
+dry-run: Pavneet-Sing/pandas-demo: Python script to demonstrate the working on pandas
+dry-run: westurner/pandasrdf: pandasrdf integrates Pandas and RDF
+dry-run: aking1012/pandastalib: A wrapper for a wrapper.  Wraps the talib python wrapper in another layer, so you essentially just throw a Pandas Series/DataFrame  at any particular talib function.  The function gets precomputed and saved.  Additional moving parts will let you select precomputes to join in to frames based on constraints in order to examine things.  I'm only targeting python3.  Dependencies are easily installable with conda.
+dry-run: maahmudur/ExcelExtraction: Python module for extracting factory profuction data using Pandas.
+dry-run: Nir-J/ML-Projects: Basic Machine learning projects and assignments done by me.
+dry-run: MarcoAlmada/bandit-panda: python pandas implementation of basic Multi-Armed Bandit algorithms.
+dry-run: Dumbris/cookiecutter-kaggle-luigi: Starter for Kaggle's competitions. Luigi, pandas, sklearn
+dry-run: iamjagdeesh/Fake-News-Detection: Fake news detector based on the content and users associated with it using BERT and Graph Attention Networks (GAT).
+dry-run: andresmao/pandasglue: Productivity for your Data Lake
+dry-run: andhus/time-series-h5py: Abstraction layer on top of h5py for storing time-indexed Pandas data (Series, DataFrame). Focus is fast retrieval of range and index queries but should also support flexible modification of data.
+dry-run: salasboni/useful_python_snippets: This repo has useful python snippets: pandas, stats, regression, etc
+dry-run: HammerBag/python-fflogs-rankings: Method to pull fflogs rankings in python utilizing pandas arrays.
+dry-run: alex314159/DataFrameToTreeListCtrl: Display Pandas DataFrame groupby sums in a wxPython TreeListCtrl
+dry-run: modin-project/df-bench: A benchmarking suite for profiling performance against pandas
+dry-run: xuhaer/spiders: 
+dry-run: lextoumbourou/simple-ranker: An extremely simple ranking module for pandas dataframes
+dry-run: AtsushiSakai/googleearthplot: Python library for plotting on google earth
+dry-run: lyndsysimon/statscharts: A module, built on pandas, implementing various charts used in SPC (Statistical Process Control)
+dry-run: dklassen/simplesurvey: A pandas dataframe backed survey creation and analysis framework
+dry-run: sixtwoeight-tech/sklearn-features: Helpful tools for building feature extraction pipelines with scikit-learn
+dry-run: shtsai7/PyPandas: PyPandas, a data cleaning framework for Spark
+dry-run: jeremybaby/pandas-cute: 
+dry-run: SravB/Algorithmic-Trading: Algorithmic trading using machine learning.
+dry-run: capitalone/Data-Load-and-Copy-using-Python: locopy: Loading/Unloading to Redshift and Snowflake using Python.
+dry-run: singhrahuldps/OneHotEncode: A python script to deploy One-Hot encoding in Pandas Dataframes
+dry-run: MEETOZA18/TEXT-T0-SPEECH: This project of mine converts a text into speech. It uses Google text to speech(gTTS) and also pandas.
+dry-run: toddbirchard/jira-database-etl: :mens: 💾 Script to import issues from a JIRA instance into a database.
+dry-run: alejandrodumas/kodiak: Enhance your feature engineering workflow with Kodiak
+dry-run: rshrc/gait-recognition: Distance Recognition of a Human Being with Deep CNN's
+dry-run: chaityacshah/PandasTutorials: Contains code taught by 'sentdex' in Data Analysis with Python and Pandas Tutorial
+dry-run: andy-esch/cartoframes: (deprecated) an experimental python pandas interface for using carto. See maintained version -> https://github.com/CartoDB/cartoframes
+dry-run: baieric/chatstats: 💬📊 Fun data visualizations for Facebook Messenger chats
+dry-run: lshang0311/pandas-examples: Pandas Examples
+dry-run: ivukotic/PandaLogParser: for parsing Panda Logs
+dry-run: abarto/pandas-drf-tools: A set of tools to make Pandas easy to use with Django REST Framework projects
+dry-run: chigozienri/regionprops_to_df: Takes list containing regionprops objects output by skimage.measure.regionprops, returns Pandas DataFrame of all non-dunder, non-hidden scalar attributes
+dry-run: balzer82/Pandas-Stoxx-Europe-600: Some Financial Analysis Stuff with Python Pandas
+dry-run: raamana/pyradigm: Python class (data structure) to ease and improve machine learning workflow
+dry-run: dmnfarrell/pandasqtapp: prototype pandas qt/pyside2 table based app
+dry-run: clrke/pythonph-february2015-test: Pandas, Iterators and Generators Test (Python)
+dry-run: ysfmag/aws-lambda-py-pandas-template: how to use pandas in aws lambda 
+dry-run: jayvischeng/AOPAS: A PyQt/Numpy/Pandas/Matplotlib Program! 
+dry-run: tschm/PandasMongoDB: Store Pandas objects in a MongoDB database
+dry-run: Captmoonshot/doublebagger: From Django to postgreSQL to pandas
+dry-run: cadmiumkitty/rdfpandas: RdfPandas is a module providing RDF support for Pandas
+dry-run: dsimpson1980/pandas_viewer: Qt gui for viewing pickled pandas objects
+dry-run: antoinecarme/pyaf: PyAF is an Open Source Python library for Automatic Time Series Forecasting built on top of popular pydata modules.
+dry-run: RodolfoFerro/DisAtBot: DABOT: Disaster Attention Bot
+dry-run: samuelcolvin/land-registry-price-paid-data: Land registry house price data converted to Python Pandas DataFrame
+dry-run: PranjalGupta2199/OFFLINE-ERP: A desktop application which helps students to choose Disciplinary and Open Electives wisely.
+dry-run: AchintyaX/Twitter_Data_Retrieval: A Python script to get tweet data like text , user name, creation date if a user has a file containing the tweet ids
+dry-run: newsapps/pandascrapers: 
+dry-run: gabicavalcante/pandas_python: 
+dry-run: singhanand453/Numpy-pandas: 
+dry-run: brendancol/pandas-taj: Pandas DataFrame to JSON converter using Python implementing `Tables As JSON` specification
+dry-run: goettl79/parides: Prometheus metrics to Panda Dataframe / CSV exporter. Mainly useful to analyze your metrics with datascience tools.
+dry-run: ULB-Metronu/georges: Opinionated particle accelerator modeling Python package.
+dry-run: Ianphorsman/PandasSqlWrapper: Provides upsert and schema updating capabilities and wraps basic functionality expected when communicating between dataframes and sql tables.
+dry-run: mkempers/howto-sqlazure-pandas: How to read and write to an Azure SQL database from a Pandas dataframe
+dry-run: lee19840806/clickhouse2pandas: Select ClickHouse data, convert to pandas dataframes and various other formats, by using the ClickHouse HTTP interface
+dry-run: esantorella/hdfe: 
+dry-run: lukesmurray/jil: Pandas to Sql Transpiler
+dry-run: adrienrenaud/pyjave: Pandas and Plotly tools
+dry-run: OneGneissGuy/cimis: a python package to query California Department of Water Resources CIMIS station data into a pandas dataframe
+dry-run: nils-braun/uncertain_panda: Bootstrapping uncertainties with pandas
+dry-run: IntegriChain1/DFMock: Pandas DataFrame mocking library
+dry-run: xbanke/pandas-parallel: Pandas apply parallel
+dry-run: Aksh77/Pandas-and-Matplotlib-tutorial: Learning Pandas and Matplotlib
+dry-run: Kulovitz/Strategy-Learning: An automated trading bot based on a Qlearning (Array based reward driven) platform built on Python with Pandas and Numpy.
+dry-run: 4iji/Linkedin-Scraper: This is a python program which scrapes linkedin information upto 98% accuracy using the google custom search API. It also uses pandas to read the search parameters from Excel Sheets and then scrape and write them back into another Excel Sheet.
+dry-run: PanDAWMS/panda-mon-qa: QA suite for PanDA monitor
+dry-run: CedricFR/dataenforce: Python package to enforce column names & data types of pandas DataFrames
+dry-run: karolzak/support-tickets-classification: This case study shows how to create a model for text analysis and classification and deploy it as a web service in Azure cloud in order to automatically classify support tickets. This project is a proof of concept made by Microsoft (Commercial Software Engineering team) in collaboration with Endava http://endava.com/en
+dry-run: cybmp3/Panda-Learning: fork from https://github.com/Alivon/Panda-Learning
+dry-run: Curlyfries13/ReallySwellGuys-TPG2.0: Really Swell Guys Trash Panda Games 2.0 code repository
+dry-run: Zsailer/phylovega: Interactive tree visualizations in Python (powered by Vega).
+dry-run: viyatgandhi/content-based-recommendation-system: content-based recommendation system using numpy and scipy
+dry-run: mez/extended_kalman_filter_python: Python implementation of an Extended Kalman Filter.
+dry-run: tkluck/pandas-nesteddata: Transform hierarchical data (nested arrays/hashes) to a pandas DataFrame according to a compact, readable, user-specified pattern
+dry-run: JessicaGarson/Simple_Pandas: 
+dry-run: correctiv/pandas-redistrict: Redistrict dataframes and port old district data to the current state
+dry-run: wy36101299/technical-analysis: use Pandas to analyze stock
+dry-run: eikonomega/configuration_panda: Easy program configuration for Pandas.
+dry-run: Version2beta/ipython-pandas-explorer: This repository holds some python resources used in my iPython and Pandas presentation for the SLC Python meetup
+dry-run: mmphego/pandas_utility: Some useful Pandas utility functions
+dry-run: anshu7vyas/naive-bayesian-census-income: An implementation of Naive Bayesian Classifier from scratch in Python
+dry-run: duyong6380/pandas_sample_use: only  use pandas  to learning
+dry-run: sksoumik/Forecasting-Weather-Using-Machine-Learning: Forcasting Weather Using Multinomial Logistic Regression, Decision Tree, Naïve Bayes Multinomial, and Support Vector Machine
+dry-run: victormartingarcia/bitcoin-OHLC-generator: Python script for generating candlestick CSV dataset aggregating trade data from several exchanges
+dry-run: Frank-qlu/recruit:  recruit 招聘爬虫+数据分析 1.爬虫：     采用Scrapy 分布式爬虫技术，使用mongodb作为数据存储，爬取的网站Demo为51job，数据我目前爬了有几千条 2.数据处理：      采用pandas对爬取的数据进行清洗和处理 2.数据分析：     采用flask后端获取mongodb数据，前端使用bootstrap3.echarts以及D3的词云图，如果喜欢请star or Fork,预览详见
+dry-run: tkrabel/edaviz: edaviz - Python library for Exploratory Data Analysis and Visualization in Jupyter Notebook or Jupyter Lab
+dry-run: matchID-project/backend: Backend (Docker & API) for matchID project
+dry-run: quillford/panda-canutils: can utils for comma.ai panda
+dry-run: lttoby/pandas_to_sql: Save your pandas form data into SQL server.
+dry-run: klieret/AnkiPandas: Analyze and manipulate your Anki collection using pandas!
+dry-run: johnedstone/zappa-webscrape: Simple Zappa Webscraping with Selenium, Pandas, and BeautifulSoup
+dry-run: shailjaguptaymca/Python-for-AI: Basic understanding of python data structures, loops, numpy, pandas and visualization
+dry-run: swenkel/modin-benchmark: A little benchmark script to test modin.pandas against pandas
+dry-run: jtloong/pandas-bin-continuous: Encode binary features based on binned continuous variables in Pandas.
+dry-run: scls19fr/pandas-anonymizer: Some functions to anonymize data with Python Pandas
+dry-run: Link-/bitcoin-manalysis: Bitcoin Data Analysis using Jupyter/pandas and matplotlib
+dry-run: jnmclarty/validada: Another library for defensive data analysis.
+dry-run: ntrang086/ml_trading_defeat_learners: machine learning algorithms for trading: implement linear regression and decision tree learners and generate data sets that work better for linear regression and those that work better for decision trees
+dry-run: PyTables/datasette-pytables: Datasette connector for dealing with PyTables and pandas/HDF5 files
+dry-run: milesgranger/lumber-jack: High performance & light weight alternative to Pandas with ML focused tooling. (Work in progress x100!)
+dry-run: cayetanobv/raster2xyz: Alternative and faster (vectorized) version of gdal2xyz.py. Builded on top of GDAL, Numpy and Pandas.
+dry-run: bhavika/IntroToML: Learning to use scikit-learn, scipy, pandas, numpy, lda, etc
+dry-run: BrickFrog/kedro-pandas-profiling: A simple wrapper to use Pandas Profiling easily in Kedro
+dry-run: biocodices/vcf_to_dataframe: Get a pandas DataFrame from a possibly gzipped VCF file.
+dry-run: uncharted-distil/distil-timeseries-loader: A glue primitive for loading time series data from a D3M dataset into a Pandas Dataframe.
+dry-run: superDross/pdVCF: Allows one to manipulate a VCF as a MultiIndex Pandas DataFrame
+dry-run: phildeutsch/mbox-analysis: Loads mbox files into avro and pandas for analysis (Python)
+dry-run: Bukola-Ayodele/NYCData: NYC Median Income Data Visualization Project Using Bokeh/Pandas
+dry-run: datapythonista/mempandas: Alternative implementation of the pandas DataFrame constructor, that tries to be more efficient
+dry-run: eliza-jane/dashing-planets: Using Python's Pandas and Plotly's Dash to make planetary data look...well... dashing. ;)
+dry-run: hissashirocha/webscraping_sinac: Web scraping and data manipulation with Python, Shell Scripting, Selenium and Pandas
+dry-run: pchung39/dashboard_report_manipulation: Created a python script to add & modify data from a csv using the Pandas Python library
+dry-run: SimonHettrick/graphing: A place to experiment with some standard graphing libraries for use with Pandas
+dry-run: DTOcean/dtocean-qt: Utilities to use pandas (the data analysis / manipulation library for Python) with Qt
+dry-run: stefanw/pandas-linker: pandas-linker runs comparison windows over pandas DataFrame and links the rows via assigned UUIDs.
+dry-run: jzarco/crm-rfm-modeling: RFM modeling in Python
+dry-run: kristianfoerster/melodist: MELODIST is an open-source toolbox written in Python for disaggregating daily meteorological time series to hourly time steps. It is licensed under GPLv3 (see license file). The software framework consists of disaggregation functions for each variable including temperature, humidity, precipitation, shortwave radiation, and wind speed. These functions can simply be called from a station object, which includes all relevant information about site characteristics. The data management of time series is handled using data frame objects as defined in the pandas package. In this way, input and output data can be easily prepared and processed. For instance, the pandas package is data i/o capable and includes functions to plot time series using the matplotlib library.
+dry-run: bernieyangmh/qiniu_cdn_log: 对访问日志数据进行清理、分析、绘图和存储
+dry-run: infinityworks/iw-data-test-python-pandas: 
+dry-run: NatLee/EHentai-Crawler: Clone a panda yourself.
+dry-run: queirozfcom/python-ds-util: Collection of useful helper methods for interactive data science work in python. 
+dry-run: samuelgthorpe/hello-flask: Simple Quandl stock tracking app written for the purpose of learning to tie together some important concepts and technologies, including Git, Flask, JSON, Pandas, Requests, Heroku, and Bokeh for visualization.
+dry-run: inside-track/pandas-mapper: Concise ETL-style mapper for Pandas
+dry-run: abeja-yuki/pandas_bj: JOIN BETWEEN feature for pandas DataFrame
+dry-run: mbalatsko/dae-impute: Denoising Autoencoder imputation method for pandas DataFrames
+dry-run: YaoquanYe/3_Ichimoku-Chart_Pandas: 
+dry-run: tomomotofactory/BigQuery-Pandas-Lite: 
+dry-run: lucko515/movie-recommender-pandas: This is movie recommendation system with pandas back-end. There are a few things you can do with it. Search for movie, find movie what to watch based on genre and when you have watched a movie to find other movies similar to it.
+dry-run: Zelazny7/pdtrees: Decision Trees implementation for Python/pandas
+dry-run: havocesp/pcmc: CoinMarketCap site scrapper to Pandas dataframes.
+dry-run: InContextSolutions/PandaSurvey: Survey Weighting Methods for the Pandas Dataframe
+dry-run: ngallup/gaussdas: Parse Gaussian files into pandas dataframes
+dry-run: JoanMartin/trackanimation: Track Animation is a Python 2 and 3 library that provides an easy and user-adjustable way of creating visualizations from GPS data.
+dry-run: jersobh/asyncio-pandas-mongodb: Just a PoC to benchmark algorithms to import a huge csv file data (1 million lines, 13 columns) to mongodb with Python
+dry-run: snatch59/oecd-data-mining: OECD data mining using pandasdmx and pandas
+dry-run: jiafengkevinchen/pandas_tools: Auxiliary functionality (LaTeX integration, etc.) for pandas
+dry-run: kinverarity1/excellentpandas: Very quickly load pandas DataFrames in Excel
+dry-run: JECSand/pandas_sqlalchemy_technical_analysis: Scripted examples of Beta and RSI algorithms running against historical stock data from my yahoofinancials module. The resulting data frames are then pushed to a cloud based PostgreSQL Database. More algorithms are coming!
+dry-run: talperetz/us_stocks_segmentation_crawler: investsnips crawler with scrapy and pandas
+dry-run: iuvbio/pandas_ods_reader: Reads in an ODS file and returns a pandas DataFrame object
+dry-run: RobinFiveWords/merge_closest: Merge two pandas DataFrames using closest match
+dry-run: archiba/framania: pandas/dask DataFrame API extension library
+dry-run: SanjinKurelic/CaseBasedReasoning: Find missing values in data set using Euclid distance, normalization and calculating information value, weight of evidence
+dry-run: JasonDRowley/crunchwrap: A simple Pandas wrapper for Crunchbase's CSV exports and API results under v3.1 labels.
+dry-run: abdullahharuntahtali/examples_the_basic_commands_of_the_numpy_and_pandas_libraries: TR:Numpy ve Pandas Kütüphanelerinin Temelini Oluşturan Komutları Örneklerle Açıkladım, EN:I Explained the Basic Commands of the Numpy and Pandas  Libraries with Examples.
+dry-run: slierp/Solar-cell-data-analysis: Solar cell data analysis using python modules pandas, matplotlib and pyqt
+dry-run: metjush/panel_reg: Implementation of panel data regression (first differences, fixed effects) in python (numpy, pandas)
+dry-run: comic/evalutils: evalutils creates evaluation containers for grand-challenge.org
+dry-run: pmueller1/s3-bigquery-conga: Piping AWS EC2/S3 files into BigQuery using Lambda and python-pandas
+dry-run: michaeltremeer/mikes-mice: An implementation of Chained Equations and MICE imputation methods for pandas DataFrames.
+dry-run: schmohlio/nyc-restaurant-violations: exploration of NYC Open data restaurant violations using Apache Spark, Pandas, and statsmodels for Python
+dry-run: bnoon/acis-pandas: Load data from the Applied Climate Information System (ACIS) into pandas
+dry-run: ikukuyeva/Stats-404-Statistical-Computing: Code repository for UCLA Master of Applied Statistics
+dry-run: coady/django-model-values: Taking the O out of ORM.
+dry-run: kayak/fireant: Data analysis and reporting tool for quick access to custom charts and tables in Jupyter Notebooks and in the shell.
+dry-run: Jeet1994/Linear_regression_python_using_numpy_pandas_matplotlib: Part of a Pattern recognition course undergoing in the current semester (Sixth Semester).
+dry-run: the-st0rm/Drone-hijack: This Project uses a Panda board mounted on top of my drone (the attacker) to hijack other drones autonomously and fly them back to the station. The hijacking can be done autonomously. The flight control can also be done autonomously or remotely if we managed to connect to the Panda board from other network.
+dry-run: dpdornseifer/PerFin: PerFin a Personal Finance library 
+dry-run: bryandlee/franka_pybullet: PyBullet simulator for Franka Emika Panda
+dry-run: yehoshuadimarsky/bcpandas: High-level wrapper around BCP for high performance data transfers between pandas and SQL Server. No knowledge of BCP required!!
+dry-run: hemkum/ball-tracking-with-opencv: Tracking a ball using opencv and plotting the graph of its position vs time.
+dry-run: leo6676284/tushare: 利用tushare pandas下载股票历史数据并存入mysql数据库
+dry-run: subha9/Assignment8: Pandas
+dry-run: tnummy/pystock: Simple way to get stock (pandas) object with historic data, several upper indicators, and several lower indicators. 
+dry-run: markbasham/pandas4cluster: pandas
+dry-run: 18856584989/Myproject: Pandas 
+dry-run: yubajin/pandas_study: pandas
+dry-run: GentAndrada/P_Assignment_3: Pandas
+dry-run: WendyLuo0625/week6: pandas
+dry-run: normannexo/soccer-database-python: pandas 
+dry-run: Meenal-goel/assignment_17: Pandas
+dry-run: guilhermeagsouza/Pandas: Pandas
+dry-run: gerssonmg/pandas: pandas
+dry-run: neeil93/DataScience_Session9_Assignment1: Pandas
+dry-run: mrnne/Programming-Assignment-8: PANDAS
+dry-run: ubaops/my_pandas: pandas
+dry-run: nearxu/pandas-exercise: pandas
+dry-run: GirmayyTechane/Session-8-Assignment-1: PANDAS
+dry-run: Alvinkariuki/PandasBootcamp: Pandas
+dry-run: yangzhangalmo/pandas_pp: pandas++
+dry-run: Kimseonghun-468/Pandas: Pandas
+dry-run: rishav08/DecisionTree_ID3_Algorithm: Implemented Decision tree learning algorithm using ID3 with Information Gain Heuristic in Python and used Pandas for pre-processing data.
+dry-run: Alicia-Yifan/load-big-data-pandas: load big data pandas by using pandas package pandas
+dry-run: Jaehoon-Cha-Data/Pandas: Pandas
+dry-run: brmagnuson/GISUtilities: A package of convenience functions based around gdal, ogr, osr, and pandas for working with spatial data
+dry-run: g92pratik/pyrobo: This repository maintains simple examples of machine learning using python libraries scikit-learn, numpy, scipy, pandas etc. 
+dry-run: gunjansehgal30/Pandas-Cheatsheet: Pandas 
+dry-run: IntuitiveWebSolutions/diffino: Diffing tools for comparing datasets in CSV, XLSX and other formats
+dry-run: ezwelty/goodtables-pandas-py: Fast (but memory intensive) Frictionless Data Tabular Data Package validation
+dry-run: BrianDAllen/yahoo_finance_pandas: Stock and Option data from Yahoo Finance returned in Pandas DataFrames 
+dry-run: bandaangosta/minimal-flask-pandas: Minimal template to create a web application based on Flask and using Pandas for data manipulation
+dry-run: leondinh/tableGUI: A GUI for the pandas dataframe in Python.
+dry-run: KPLauritzen/sklearn_transformers: Custom Scikit-learn transformers that return a pandas DataFrame
+dry-run: lucasxlu/DataHouse: a data mining and machine learning repo
+dry-run: tangkaisky/python_pandas-INI-CSV: 读取同花顺的INI构建dataFrame，并且转化成csv
+dry-run: derrickturk/antibiotics: the best treatment for acute episodes of PANDAS
+dry-run: xiaoa5/stock-technical-analysis: Stock trade strategies back-testing.  Python, Pandas, Tensorflow, Keras, Pytorch. 
+dry-run: davidkorea/stock_analyse: tushare
+dry-run: szli/SpyderPandasPatch: This is a quick dirty patch to Spyder, a great python GUI for data analysis, so that it supports the display of contents of  pandas Series and DataFrame
+dry-run: suzhenyu22/sql4pandas: Something useful tools for data analysis using pandas and sql
+dry-run: devpriyaish/Pandas-Introduction: Mainly contains functions that are present in pandas.
+dry-run: ProsenjitKumar/Fromcommunity_MyPortfolio: Python For Practice PyQt5, Tkinter, Pandas, Matplotlib, Numpy etc
+dry-run: gokhangerdan/learning_python: Python snippets for flask, flask-restful, oop, ml, pandas, etc...
+dry-run: sbrichardson/panda-node: Node.js Library for the comma.ai Panda device
+dry-run: askerry/bqpy: pandas-like interface for interacting with bigquery from python
+dry-run: mithunmanohar/cryptocurrency-stats-tracker: A coinmarketcap historical data scrapper using pandas, mongodb
+dry-run: EricThomson/pandastim: Generate visual stimuli using panda3d
+dry-run: cdeil/test_fits_to_pandas: Tests to read FITS data into pandas DataFrames via astropy
+dry-run: icane/pyaxis: PC-Axis statistical data format to Python Pandas dataframe converter
+dry-run: MinjeJeon/xwpandas: High performance Excel IO tools for pandas DataFrame
+dry-run: joungna/urbandata_lab: 파이썬 Pandas 등 활용해서 엑셀대신 통계분석, 시각화분석을 실습합니다. 
+dry-run: leif/printroducer: create printable shared secrets for use with SMP or PANDA
+dry-run: jarvisqi/machine_learning: machine learning，numpy，scipy，pandas，matplotlib，sklearn，xgboost ……
+dry-run: innoq/torchbridge: providing tools of pandas, numpy and sklearn for pytorch
+dry-run: wxianxin/GetGoogleFinance: Get security data from Google in handy pandas DataFrame format.
+dry-run: robfraz/gbq-pandas: Simple tools for working with Google BigQuery and Pandas DataFrames
+dry-run: dceoy/pdbio: Pandas-based Data Handler for VCF, BED, and SAM Files
+dry-run: daviskirk/groupbytime: Set of convenience functions for grouping pandas objects by timedelta
+dry-run: namely/pandas_ext: Python Pandas extensions for pandas dataframes
+dry-run: krunal3kapadiya/Machine-Learning-A2Z: Different algorithms in python, pandas, keras, tensorflow and in R that I learnt with this course
+dry-run: Zhaoshimei/pandas_basic_use: the basic use of pandas / pandas learning
+dry-run: sfcta/gtfs_utils: pandas-based tools to read, write, manipulate, and calculate statistics on GTFS feeds
+dry-run: iamownt/Reproducing-ML-algorithms: reading Li Hang's book <Statistical Learning>, using pure python (numpy, pandas) to reproducing algorithms.
+dry-run: ngupta23/more: This is a helper package for pandas, visualizations and scikit-learn
+dry-run: Mantej-Singh/ETL-pipeline-using-Python: A small py pgm to extract, clean and dump the data using Pandas
+dry-run: teto/nvim-palette: Easy access to nvim options
+dry-run: Jim-Holmstroem/MetadataDataFrame: Adds the functionallity to have metadata attribute to a pandas dataframe
+dry-run: arun-nemani/dfreduce: Automatically reduce the memory size of any pandas dataframe based on downcasting bit types efficiently
+dry-run: hhnigdeli/Rundict: Get coordinates from .gpx, .xml or .kml file as Pandas DataFrame
+dry-run: wri/raster2points: CLI to convert raster data to points (CSV or Pandas Dataframe)
+dry-run: UncleJiong/pdexcel: The library makes it easy to export pandas DataFrame objects as tables/charts in excel format.
+dry-run: hhoeschle/gams_addon: python package to read out GAMS gdx files into pandas dataframes
+dry-run: yang1young/PythonMLFramework: A framework of python to do general machie learning using sk-learn, numpy, matplotlib and pandas
+dry-run: knanne/mspandas: Convenience wrapper for reusable reporting from pandas DataFrames to python-pptx and python-docx
+dry-run: thombashi/pytablereader: A Python library to load structured table data from files/strings/URL with various data format: CSV / Excel / Google-Sheets / HTML / JSON / LDJSON / LTSV / Markdown / SQLite / TSV.
+dry-run: somiandras/python-yahoo-finance-download: Download stock quotes from the new Yahoo Finance API to pandas DataFrames
+dry-run: Akulbasov/PGA: This is a library for making batch request to Google Analytics Core Reporting v3 API and extracting data from Google Analytics property into Python 3 data structures.
+dry-run: timkpaine/hedgedata: Data caching
+dry-run: petulica/datova_analyza: csv, pandas
+dry-run: Thios1820/pandas-homework: Pandas repo
+dry-run: HuangFanCode/PythonRelative: Python Pandas
+dry-run: bauassr/Session9_Assignment1: Pandas Dataframe
+dry-run: rakaadli/pandas: belajar pandas 
+dry-run: edwin254/flask-data: pandas basics
+dry-run: thrilokkumarpallaki/pandas: Pandas Utilities
+dry-run: davidkorea/video_games_global_sales: pandas 입문
+dry-run: ncux/Pandas:  Pandas basics 
+dry-run: vickyhovey/findingS-Pcodes: python pandas
+dry-run: olivyama11/CS122HW10: using pandas
+dry-run: nrlhk/ORCL-and-SAP-stock-Price-Jan-Mar-2019: Pandas & Matplotlib
+dry-run: jcg122562/pandas-homework: Pandas Homework
+dry-run: HEHenson/CanDataPY: A framework for converting downloaded Cansim Matrices into Python Panda's data
+dry-run: nmamazon/PandasRepo: Python Pandas
+dry-run: theotheo/pandas_keeper: Pandas helpers
+dry-run: meganduffy/pandas: Learning Pandas
+dry-run: namickey/bi: pandas + matplotlib
+dry-run: bauassr/Session10_Assignment1: Pandas 2
+dry-run: airicbear/pandas-docs-10min: Learn pandas
+dry-run: QwertyAswal/pandas: pandas exercises
+dry-run: dthempel/pandas-tut: PANDAS Tutorial
+dry-run: Ewuranna/pythonlearning: pandas assignment
+dry-run: tinitiate/python-pandas: python-pandas
+dry-run: drkjam/pdutils: pandas utilities
+dry-run: oesstudent/MTA_Subway_Project3: pandas project
+dry-run: arvindkarir/Pandas: Pandas files
+dry-run: jcorreaITM/lab3_mafp: Pandas exercises
+dry-run: tianya1/pandas: pandas learning
+dry-run: Vaish0906/vaishnavi_internship: pandas(module)
+dry-run: geum-mo/data_cleanser: Learning Pandas
+dry-run: erik-sn/pd_learn: Pandas Tutorial
+dry-run: lendong/pandas_learn: learning pandas
+dry-run: donguyencong/datasciencep4: Pandas project
+dry-run: vksmgr/ass1: Learning Pandas
+dry-run: xue99999/emissions_by_pandas: emissions pandas
+dry-run: heathersaul-nos3lf/Pandas-Homework: Pandas Homework
+dry-run: nejcjelovcan/koalas: Pandas utilities
+dry-run: crazycracker/Assignment-10.1: Pandas Continued
+dry-run: rajeshbabua/TimeseriesAnalysis: Using Pandas 
+dry-run: FZF4R/Pandas: Python Pandas
+dry-run: kshiv29/PandasEx: Pandas Excercise
+dry-run: mehmetPazar/Pandas_Basics: Pandas Basics
+dry-run: evan-magnusson/rdd: Python tools for regression discontinuity designs
+dry-run: wenliangz/Pandas_learn: Pandas excercises
+dry-run: ericyang0883/test_iris: learn pandas
+dry-run: seven-tan/python_pandas: pandas practice
+dry-run: boksic1986/pandas_exercise: pandas learning
+dry-run: sudip06/filmData: pandas example
+dry-run: cerberusv2px/pandas-python: Learning pandas
+dry-run: Studyii/homework: pandas hw
+dry-run: omriwa/pandas: pandas assignment
+dry-run: shashank1094/pandasTutorial: Pandas Tutorials
+dry-run: Flamineo/pandas: Pandas HW
+dry-run: yuanyarafang/python-data-science: NumPy Pandas 
+dry-run: gauthamreddi/pandas: pandas solutions
+dry-run: luispedro/pdutils: Pandas utilities
+dry-run: Dauzy/Pandas_ref: Pandas ex
+dry-run: WenkyG/Pandas: practicing  pandas
+dry-run: jz20170904/Pandas-data: Pandas-data
+dry-run: gjeusel/ticts: A Python library for unevenly-spaced time series analysis
+dry-run: lovexj88/Pandas: learning pandas
+dry-run: chaoyue520/Learning_Pandas: pandas overview
+dry-run: myGitToy/tushare: python+pandas
+dry-run: Marlombrei/Python_DataAnalysis_2ndEd: Pandas study
+dry-run: GaspardZeBear/bwbear: Pandas experiments
+dry-run: ARodell/Pandas: Pandas homework
+dry-run: hducati/pandas-examples: learning pandas
+dry-run: FrankMwandi/pandas_prac_pokemon1: pandas exercises
+dry-run: usama15/second-assignment: Pandas Assignment 
+dry-run: AlexsandroMO/LEARN_PANDAS_MORE: Studying Pandas
+dry-run: dgabriele/pandas: Learning Pandas
+dry-run: fishwang2016/stocks: Pandas learning
+dry-run: wankaiss/stockvisual: pandas train
+dry-run: shauvet/data-analysis-study: python,pandas
+dry-run: wtfigo/Pandas: Pandas Examples
+dry-run: KengoWada/pandas_assignment: Learning pandas
+dry-run: Nishant1027/Panda: Panda Using Python
+dry-run: razor08/SUV-Sales-Analysis: Analysing and predicting sales of a SUV based on the age and estimated salaries from the CSV file given using Simple Logistic Regression
+dry-run: madhan001/lfmxtractplus: lfmxtractplus is a library for extracting Last.fm scrobbles along with spotify audio features for use with Pandas
+dry-run: drewtang/weather: pandas tutorial
+dry-run: jasonluocesc/CoffeeData: Pandas exercise
+dry-run: hotcoder/Session_11-Assignment_1: Pandas tutorial
+dry-run: HugoGustavo/Pandas: Aprendendo Pandas
+dry-run: gilberthon/pandas: python pandas
+dry-run: Yhuelcher/Homework-06_21_2015: Homework Pandas
+dry-run: ermakovpetr/head_dataframe_by_chunk: pandas utils
+dry-run: liuruheng/pandas-trainning: pandas practice
+dry-run: GodricLi/PandasSeries: Pandas Series
+dry-run: fmast/Pandas: Pandas Studies 
+dry-run: skshivammahajan/pandatuts: Tutorial Pandas
+dry-run: pengjason/pandasPro: pandas test
+dry-run: jungtai/tutorial: pandas project
+dry-run: taylorperkins/pandas-cli: Pandas CLI!
+dry-run: slaven92/pandas: pandas tutorial
+dry-run: MeagColley/Pandas-Challenge_MEC: pandas homework 
+dry-run: chaseems/pandas: Learning Pandas.
+dry-run: saurabhm99/CSV-column-counter-in-Python: Pandas python
+dry-run: liuliming98/UsePandas: Test pandas
+dry-run: Namish-Singh/pandas-data-manipulation: Basic pandas 
+dry-run: valeriocos/geo-playground: Exploring Pandas
+dry-run: xndong1020/pandas-funda-demo: learning pandas
+dry-run: kuangtu/pandas_exec: pandas exercise 
+dry-run: ianozsvald/london_oyster_pdf_to_dataframe_parser: Convert London Oytser rail+tube+bus PDF journey histories into a Pandas DataFrame as an HDF5 file
+dry-run: kapilkchaurasia/Music-recommender: Music recommender build using pandas and scikit-learn using last.fm data as training and testing data
+dry-run: agconti/lime: An API for extracting tick data for US equities for ad-hoc analysis in Python with Pandas.
+dry-run: Benhgift/hello_world_panda3d: A simple game test for panda 3d in python
+dry-run: twopirllc/AlphaVantageAPI: An Opinionated AlphaVantage API Wrapper in Python 3.7.  FREE API Key: https://www.alphavantage.co/support/
+dry-run: PolyKen/LightDataFrame: A light substitute of pandas.DataFrame
+dry-run: xugongli/stats_spider: 国家统计局统计用区划和城乡划分代码采集程序，可采集2009年迄今所有年份的计用区划和城乡划分代码
+dry-run: pandaproject/mozfest2012: Mozilla Festival 2012 PANDA Project Session 
+dry-run: sspipe/sspipe: Simple Smart Pipe: python productivity-tool for rapid data manipulation
+dry-run: alikewater/awesome-pandas-practice: pandas abc,including file read and write, pandas data operation.
+dry-run: treasure-data/pytd: Treasure Data Driver for Python
+dry-run: MukundKal/pandas-clone: A Data Science Library - Clone of Pandas - Dubbed Pandas Cub
+dry-run: shashankvishwakarma/pandas-for-data-analysis: Python Pandas Tutorial : Learn Pandas for Data Analysis
+dry-run: SolbiatiAlessandro/pandas-cookbook: Pandas cookbook ( studying the Pandas cookbook from Theodore Petrou )
+dry-run: gauravshimpi/PandasUtilities: Pandas Utility gives you little expanded ease in using pandas.
+dry-run: sholderbach/pandasbikeshed: My pandas tooling or the pandas bike shed
+dry-run: Asummit/Python-PANDAS: Practical example of analytical library of PYTHON, with code description of SERIES, DATAFRAMES  and many more..
+dry-run: SnowWalkerJ/pandas-pivot: pd-pivot is a single-function module that allows you to check and pivot pandas DataFrame easily.
+dry-run: richjoyce/pandas_vectors: simple python package for dealing with named vectors in pandas dataframes
+dry-run: jmtsuji/PANDAseq-MGtools: Collection of scripts to optimize and use PANDAseq for paired-end alignment of metagenomic reads
+dry-run: nitred/airflow-pandas: A sample Airflow data processing pipeline using Pandas to test the memory consumption of intermediate task results
+dry-run: owenliang/numpy_pandas: 
+dry-run: bartbroere/pandas_multi: Simple loop for reading multiple csv files (matching a certain pattern) into pandas
+dry-run: N2ITN/pandas_cache: 
+dry-run: ChanJose/news_pandas: Python3 爬取新浪国内多页新闻的内文资料，使用pandas分析，并存到Excel表中
+dry-run: ssinha3/Graph_Data_Mining_Anomaly_Detection_Python_Scipy_Numpy_Pandas_igraph: Anomaly Detection In Static Real-time Graphs
+dry-run: mastraut/Pandas-Factorplots-for-Dataframes-and-Series: Matplotlib, Pandas factorplot functions
+dry-run: mk6db/bball: pandas basketball analysis
+dry-run: dariodata/pandas-exercises: Exercises with pandas
+dry-run: pradeepjampana/pandas_basics: Basic of pandas
+dry-run: samehif/pandas_magic: show some pandas magic
+dry-run: JohnnyTing/numpy_pandas_learning: numpy、pandas、matplotlib learning
+dry-run: BTSruben/4_BDI_25mar_Cloud_Activity: Compose of Pandas + PostgresSQL
+dry-run: utk-se/Doc2Vec: bridges pandas into doc2vec!
+dry-run: teehuang/Machine-Learning-Models-Sandbox: Python + Pandas + NumPy
+dry-run: fxianchao/scientific_computing_py: numpy|pandas|matplotlib
+dry-run: alvinc21/py_stocks: python, pandas, matplotlib
+dry-run: vinxhie5/Experiment-9: Data Wrangling Using Pandas
+dry-run: tomharvey/pandas-extension-dtype: Custom DTypes in Pandas
+dry-run: adarshc198/Pandas-Codes: Python Pandas Library Tutorial
+dry-run: jmenglund/nodepath: Tree manipulation with pandas
+dry-run: Anekdotin/csvManip: Pandas Dataframe quandl
+dry-run: cj1205/SimplePandasVisual: Python Pandas Visualization Module
+dry-run: elbaro/bears: Lighter alternative to Pandas
+dry-run: wushenwu/pandas: scripts about pandas, numpy
+dry-run: omerbenamram/ipandas: Autocompletion for pandas dataframes
+dry-run: itsparth20/Python_Pandas: Python Pandas Program
+dry-run: ankitthakur94/MyPyPandas: Pandas code snippets tutorials
+dry-run: oscarcorres/Pandas: Ejercicios de Pandas
+dry-run: fjxc1893/Study: numpy and pandas study
+dry-run: shinjjune/Python: Python/numpy/pandas/beautifulsoup/......
+dry-run: cassidycy/machinelearning: machinelearning , pandas, logistic regression
+dry-run: samuraicodes/pandas: Learning to use Pandas
+dry-run: JamesDream87/Excel-Tool: A Pandas Excel Tools
+dry-run: sk-rai/Intro-to-Pandas: Intro to Pandas
+dry-run: sunitharamdas/panda: text mining using pandas
+dry-run: sukic/pandas: python script using pandas
+dry-run: spades-k/make_dataframe: Make dataframe in pandas.
+dry-run: westonplatter/rpops: Restful Pandas Operations
+dry-run: gmsantos1988/Work_Pandas: Trabalho sobre biblioteca Pandas.
+dry-run: mwangimaina/pythonpostgres: Python , Postgress , Pandas Work
+dry-run: xiaxuxu/python-statistics: matploitlib,numpy,scipy,pandas
+dry-run: cbohara/pandas: Working with pandas module
+dry-run: Rakesh0206/pandas: playing with pandas features
+dry-run: benwjb/data-: excel pandas DataFrame merge
+dry-run: sekhar-123/data-mining: about pandas and stuff
+dry-run: eikonomega/file-comparison-panda: File Comparison for Pandas
+dry-run: zhangshy/Analysis: Analysis use python pandas
+dry-run: leisure007/xlPandas: for Pandas project testing
+dry-run: taurus-org/pandas-scheme: Taurus pandas-scheme
+dry-run: posprau/mentor-academy-problems: practice problems for pandas
+dry-run: tiramisuq/pandas-develop: basic pandas development
+dry-run: KelumPerera/Pandas: Pandas for data analysis
+dry-run: kevinlowkw/pandaz: Experimenting on PANDAS library
+dry-run: greenmac/python-morvan-numpy-pandas: python-numpy-pandas-morvan
+dry-run: ericksc/pandas_studies: Python Pandas lib studies
+dry-run: Lusr77/ML: Pandas Numpy Matplotlib etc.,
