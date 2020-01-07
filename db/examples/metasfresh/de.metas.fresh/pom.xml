@@ -1,0 +1,27 @@
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>de.metas.parent</artifactId>
+		<groupId>de.metas</groupId>
+		<version>10.0.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<groupId>de.metas.fresh</groupId>
+	<artifactId>de.metas.fresh</artifactId>
+	<packaging>pom</packaging>
+
+	<!-- FRESH-271: we need an explicit version here, otherwise versions-maven-plugin can't set it to another version -->
+	<version>10.0.0</version>
+
+	<modules>
+		<module>de.metas.fresh.base</module>
+		<module>de.metas.fresh.swingui</module>
+	</modules>
+
+	<dependencies/>
+
+</project>
