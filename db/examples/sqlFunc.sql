@@ -3,9 +3,13 @@ RETURNS varchar AS $$
 declare result varchar;
 BEGIN
   if clientId > 1000 then
-    result = "Z_ID";
+    if (clientId > 1500) then
+      result = "TT_ID";
+    else
+      result = "TF_ID";
+    end if;
   else
-    result = "X_ID";
+    result = "F_ID";
   end if;
   return result;
 END;
