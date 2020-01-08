@@ -8,15 +8,6 @@ import java.util.List;
 
 public class CashFlow {
 
-  protected String getSqlCashFlowSource(int clientId) {
-    String src = null;
-    if (clientId > 1000)
-      src = new String("G_ID");
-    else
-      src = new String("H_ID");
-    return src;
-  }
-
   protected String getSqlSelect(int option, int clientId) {
     final StringBuffer sql = new StringBuffer();
 
@@ -26,8 +17,8 @@ public class CashFlow {
         sql.append("SELECT C_BackAccount_ID, bp.C_BP_Group_ID,"
         + getSqlCashFlowSource(clientId)
         + ","
-        + " oi.test_ID "
-        + " FROM Table1"
+        + " sqlFunc(" + clientId
+        + ") FROM Table1"
         + " WHERE option="
         + option);
         break;
@@ -36,7 +27,9 @@ public class CashFlow {
       {
         sql.append("SELECT A_ID,"
         + getSqlCashFlowSource(clientId)
-        + " FROM Table1");
+        + ","
+        + " sqlFunc(" + clientId
+        + ") FROM Table1");
         break;
       }
       default:
@@ -46,6 +39,15 @@ public class CashFlow {
     }
 
     return sql.toString();
+  }
+
+  protected String getSqlCashFlowSource(int clientId) {
+    String src = null;
+    if (clientId > 1000)
+      src = new String("G_ID");
+    else
+      src = new String("H_ID");
+    return src;
   }
 
   protected PreparedStatement prepareStatement(String sql) {
