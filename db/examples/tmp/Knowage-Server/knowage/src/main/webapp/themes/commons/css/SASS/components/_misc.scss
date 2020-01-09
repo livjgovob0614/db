@@ -1,0 +1,1223 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%; 
+  font-size: $rootFontSize;
+}
+
+#doc, #iframeDoc {
+  width: calc(100% - 58px);
+  margin-left: 58px;
+}
+#doc #iframeDoc {
+  width: 100%;
+  margin-left: 0;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.small-padding {
+  padding: 8px;
+}
+
+.margin-right10 {
+  margin-right: 10px;
+}
+  
+.hidden{
+	display:none !important
+}
+.capitalize {
+    text-transform: capitalize;
+}
+::-ms-clear { display: none !important;width : 0;  height: 0; }
+// Toolbar elements  
+md-toolbar.md-knowage-theme {
+		min-height: $toolbarHeight;
+        outline: none;
+        z-index: 10;
+		height: $toolbarHeight;
+		background-color: $headerBackground;
+		color: $lightTextColor !important;
+		.md-toolbar-tools {
+			height: $toolbarHeight;
+			font-size: $headerFontSize;
+			text-transform: none;
+			font-weight: $headerFontWeight;
+      button:not(.md-fab){
+        min-height: $toolbarHeight;
+        height: $toolbarHeight;
+        line-height: $toolbarHeight;
+      }
+      button.md-icon-button:not(.md-fab) {
+        height: $fontIconHeight;
+        min-height: $fontIconHeight;
+        line-height: $fontIconHeight;
+        width: $fontIconHeight;
+        padding: 0;
+        .md-ripple-container {
+          height: $fontIconHeight;
+        }
+      }
+		}
+    &._md-toolbar-transitions{
+      transition: none;
+    }
+    &:not(.md-menu-toolbar){
+      background-color: $baseColor;
+    }
+}
+
+md-list-item ._md-list-item-inner ._md-secondary-container, md-list-item ._md-secondary-container {
+  height: 0;
+}
+md-list-item._md-button-wrap>div.md-button:first-child ._md-list-item-inner {
+  height: 0;
+}
+
+md-toolbar.secondaryToolbar.md-knowage-theme {
+	background-color: $secondaryColor !important;
+}
+
+md-toolbar.ternaryToolbar.md-knowage-theme {
+	background-color: $ternaryColor !important;
+}
+
+md-input-container.md-knowage-theme {
+  .hint {
+    position: absolute;
+    left: 2px;
+    bottom: -$headerFontSize;
+    right: auto;
+    font-size: $smallFontSize;
+    line-height: $headerFontSize;
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);
+    color: $smallTextColor;
+  }
+  +label {
+      padding: 0;
+      line-height: $inputHeight;
+    }
+  md-checkbox {
+    margin-bottom: 0;
+    &.md-checked ._md-icon {
+      background-color: $baseColor;
+    }
+    
+  }
+}
+
+md-checkbox.md-knowage-theme.md-checked ._md-icon {
+  background-color: $baseColor;
+}
+
+
+.md-button.md-knowage-theme.md-warn.md-raised:not([disabled]) {
+  background-color: $fabPrimaryColor;
+  &:hover {
+    background-color: lighten($fabPrimaryColor,10%);
+  }
+}
+
+.md-button.md-knowage-theme.md-warning.md-raised:not([disabled]) {
+  background-color: $negativeColor;
+  color: $lightTextColor;
+  &:hover {
+    background-color: lighten($negativeColor,10%);
+  }
+}
+
+.md-button.md-knowage-theme.md-raised.md-button-empty {
+  background-color: white;
+  color: $baseColor;
+}
+
+.md-button.md-knowage-theme.md-fab {
+  &:not([disabled]):not(.md-mini) {
+          background-color: $fabPrimaryColor !important;
+  }
+  top: $fabTop;
+}
+
+.md-button.md-knowage-theme.md-fab:not(.md-mini) {
+  width: $fabHeight;
+  height: $fabHeight;
+  md-icon {
+    font-size: $fabIconSize;
+  }
+}
+
+md-toolbar.md-knowage-theme .md-toolbar-tools .md-button:not[disabled] {
+        color: $toolbarButtonColor;
+        &:hover {
+            background-color: $secondaryColor;
+            color: $baseColor;
+        }
+}
+
+.md-button.md-knowage-theme:not([disabled]){
+  &:hover {
+    //background-color: lighten($baseColor,10%);
+    background-color: rgba($ternaryColor,.2);
+
+  }
+}
+
+
+// Input fields
+md-input-container.md-knowage-theme {
+  &.noMarginBottom{
+    margin-bottom: 0;
+  }
+  &:not(.md-input-invalid) {
+    &.md-input-focused {
+      .md-input {
+          border-color: $inputLineColor;
+      }
+      md-icon{
+          color: $baseColor;
+      }
+    }
+    &.md-input-has-value label {
+      color: $inactiveLabelColor;
+    }
+    &.md-input-focused label {
+      color: $activeLabelColor;
+    }
+    &.md-input-invalid {
+      .md-input {
+        border-color: $inputInvalidLineColor;
+      }
+      &.md-input-invalid.md-input-focused label {
+        color: $invalidLabelColor;
+      }
+    }
+  }
+
+}
+
+md-input-container.md-knowage-theme ng-messages :not(.md-char-counter), md-input-container.md-knowage-theme [ng-messages] :not(.md-char-counter), md-input-container.md-knowage-theme ng-message :not(.md-char-counter), md-input-container.md-knowage-theme data-ng-message :not(.md-char-counter), md-input-container.md-knowage-theme x-ng-message :not(.md-char-counter), md-input-container.md-knowage-theme [ng-message] :not(.md-char-counter), md-input-container.md-knowage-theme [data-ng-message] :not(.md-char-counter), md-input-container.md-knowage-theme [x-ng-message] :not(.md-char-counter), md-input-container.md-knowage-theme [ng-message-exp] :not(.md-char-counter), md-input-container.md-knowage-theme [data-ng-message-exp] :not(.md-char-counter), md-input-container.md-knowage-theme [x-ng-message-exp] :not(.md-char-counter) {
+    color: $fabPrimaryColor;
+}
+
+
+// Radio Buttons and Checkboxes
+
+md-checkbox.md-knowage-theme.md-checked .md-icon {
+    background-color: $baseColor;
+}
+
+md-checkbox.md-knowage-theme .md-icon {
+    border-color: $baseColor;
+}
+
+md-radio-group.md-knowage-theme .md-checked .md-ink-ripple {
+  color: $ternaryColor;
+}
+
+md-radio-button.md-knowage-theme ._md-on {
+    background-color: $baseColor;
+}
+
+md-radio-button.md-knowage-theme ._md-off {
+    border-color: $inactiveLabelColor;
+}
+
+md-radio-button.md-knowage-theme.md-checked ._md-off {
+    border-color: $inactiveLabelColor;
+}
+
+// Comboboxes
+md-select.md-knowage-theme .md-select-value {
+    border-bottom-color: $baseColor;
+    .md-select-icon {
+    	color: $baseColor
+    }
+}
+
+md-select.md-knowage-theme:not([disabled]):focus .md-select-value {
+    border-bottom-color: $baseColor;
+}
+
+md-select-menu.md-knowage-theme md-option[selected] {
+    color: $baseColor;
+}
+
+md-select-menu.md-knowage-theme md-option[selected]:focus {
+    color: $baseColor;
+}
+
+// Tabs
+md-tabs.md-knowage-theme .md-tab.md-active, md-tabs.md-knowage-theme .md-tab.md-active md-icon, md-tabs.md-knowage-theme .md-tab.md-focused, md-tabs.md-knowage-theme .md-tab.md-focused md-icon {
+    color: $baseColor;
+}
+
+md-tabs.md-knowage-theme md-ink-bar {
+    color: $baseColor;
+    background: $baseColor;
+}	
+
+// Material Cards
+md-card.md-knowage-theme {
+    background-color: $tabBackground;
+    display: block; 
+    max-height: none !important;
+    &.flexCard{
+      display: flex;
+    }
+}
+
+md-tab-content md-content.md-knowage-theme {
+    background-color: transparent;
+}
+
+// Dialog Buttons
+a.md-button.md-knowage-theme.md-primary, .md-button.md-knowage-theme.md-primary {
+    color: $lightTextColor;
+    background-color: $baseColor;
+}
+a.md-button.md-knowage-theme.md-primary.md-raised, .md-button.md-knowage-theme.md-primary.md-raised {
+    &:not([disabled]) {
+        color: $lightTextColor;
+        background-color: $baseColor;
+        &:focus {
+            color: $lightTextColor;
+            background-color: $baseColor;
+        }
+    }
+}
+.md-button.md-knowage-theme.md-primary.md-raised:not([disabled]):hover {
+    background-color: lighten($baseColor,10%);
+}
+
+.md-button.md-knowage-theme:not([disabled]):hover {
+  color:$baseColor;
+  background-color: transparentize($secondaryColor, 0.5);
+}
+
+.md-button.md-knowage-theme.md-focused:not([disabled]) {
+  color:$baseColor;
+  background-color: transparentize($secondaryColor, 0.5);
+}
+
+//Raised Button
+.md-button.md-knowage-theme.md-raised:not(.md-fab) {
+    color: $baseColor;
+    background-color: $secondaryColor;
+}
+
+.md-button.md-knowage-theme.md-raised:not([disabled]):hover {
+    background-color: $baseColor;
+    color: white;
+}
+
+// Calendar - Date Picker
+.md-knowage-theme .md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator, .md-knowage-theme .md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator {
+    background: $baseColor;
+    color: $lightTextColor;
+    border-color: transparent;
+}
+
+.md-knowage-theme .md-calendar-date-selection-indicator:hover {
+    background: $secondaryColor;
+}
+
+.md-knowage-theme .md-datepicker-input-container {
+    border-bottom-color: $baseColor;
+    
+    &.md-datepicker-focused {
+        border-bottom-color: $baseColor;
+    }
+}
+
+.md-knowage-theme .md-datepicker-input {
+    color: $baseColor;
+}
+
+.md-knowage-theme .md-datepicker-triangle-button .md-datepicker-expand-triangle {
+    border-top-color: $baseColor;
+}
+
+.md-knowage-theme .md-datepicker-triangle-button:hover .md-datepicker-expand-triangle {
+    border-top-color: $baseColor;
+}
+
+.md-knowage-theme .md-calendar-day-header {
+    background: $calendarHeaderBackground;
+    color: $calendarHeaderTextColor;
+}
+
+.md-knowage-theme .md-calendar-date.md-calendar-date-today .md-calendar-date-selection-indicator {
+    border: 1px solid $baseColor;
+}
+
+.md-knowage-theme .md-calendar-date.md-focus .md-calendar-date-selection-indicator {
+    background: $secondaryColor;
+}
+
+md-datepicker.kn-custom-datepicker {
+  display:block;
+  button {
+    height: 32px !important;
+    min-height: 32px !important;
+    padding: 0 !important;
+    width: 32px !important;
+  }
+  .md-datepicker-input-container {
+    padding: 0;
+  }
+}
+
+//Info box 
+.kn-info {
+    margin: 8px !important;
+    border: 1px solid rgba($baseColor,.1);
+    padding: 8px;
+    background-color: lighten($baseColor, 55%);
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: $smallFontSize;
+    p {
+      margin: 0;
+    }
+    &.no-uppercase {
+      text-transform: none;
+    }
+}
+
+.kn-warning {
+    margin: 8px !important;
+    border: 1px solid rgba(#FBC02D,.5);
+    padding: 8px;
+    background-color: lighten(#FBC02D, 35%);
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: $smallFontSize;
+    p {
+      margin: 0;
+    }
+    ul{
+      padding: 0;
+    }
+    &.no-uppercase {
+      text-transform: none;
+    }
+}
+
+.kn-close-Info {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.kn-noItems {
+    margin: 8px !important;
+    border: 1px solid rgba($ternaryColor,.6);
+    padding: 8px;
+    background-color: lighten($ternaryColor, 10%);
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: $smallFontSize;
+}
+
+.kn-codeExample {
+    margin: 8px !important;
+    border: 1px solid rgba($baseColor,.1);
+    padding: 8px;
+    background-color: lighten($baseColor, 55%);
+    text-align: left;
+    position: relative;
+    font-size: $smallFontSize;
+    font-family:'courier';
+    textarea {
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      resize: none;
+    }
+}
+
+md-icon {
+  text-align: center;
+}
+
+.kn-list md-icon.fa {
+  padding-left:0;
+}
+
+
+.zindexback{
+  z-index:0 !important;
+}
+.overflowVisible {
+  md-content {
+    overflow: visible;
+  }
+}
+
+.kn-checkInput {
+  md-input-container {
+    margin: 8px 0;
+  }
+  label {
+    line-height: 28px;
+  }
+  
+}
+.md-block {
+
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  width: 100%;
+}
+
+.noMargin{
+	margin:0 !important;
+}
+
+.noPadding, .noPadding > ._md-subheader-inner, .noPadding > .md-subheader-inner{
+	padding:0px;
+}
+
+.noPadding > ._md-subheader-inner, .noPadding > .md-subheader-inner {
+   ._md-subheader-content {
+    &>div {
+      height: 48px;
+    }
+  }
+}
+
+.text-transform-none {
+  text-transform: none;
+}
+.switchSubheader.md-subheader {
+  ._md-subheader-inner {
+    width: 100%;
+    padding: 8px 16px;
+    ._md-subheader-content {
+      width: 100%;
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+        md-switch {
+          margin: 0;
+        }
+    }
+  }
+}
+
+.noBorder{
+	border:0px;
+}
+.removeTransition{
+		transition	:none !important;
+	}
+
+md-content.md-knowage-theme.mainContent {
+    background-color: $contentBackground;
+}
+
+//TOASTS
+md-toast.md-knowage-theme {
+    position: fixed;
+    &.kn-toast-success {
+        background-color: green;
+    }
+    &.md-knowage-theme.kn-toast-error {
+        background-color: red;
+    }
+     height:auto;
+     max-height: 400px;
+     max-width: 100%;
+     min-width: 400px;
+     overflow:hidden;
+     span {
+        white-space: nowrap;
+     }
+}
+md-toast.md-knowage-theme.kn-toast-success {
+    background-color: green;
+}
+md-toast.md-knowage-theme.kn-toast-error {
+    background-color: red;
+}
+
+
+
+	
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+
+.flex {
+  -ms-flex: 1 auto;
+  -webkit-box-flex: 1 auto;
+  -webkit-flex: 1 auto;
+          flex: 1;
+   width:100%;
+}
+
+.flex2 {
+  -ms-flex: 1 auto;
+  -webkit-box-flex: 1 auto;
+  -webkit-flex: 1 auto;
+          flex: 1 auto;
+   width:100%;   
+   margin:0px !important;
+}
+
+#angularFullTableContentBox > table > thead > tr{
+width:100%;
+}
+
+md-tab-content > div {
+height:100% !important;
+}
+
+.rightHeight {
+height:100%;
+}
+
+
+#selectDivKPI{
+height:80%;
+}
+
+#selectDivKPI > angular_table{
+height:80%;
+}
+
+.mdDialogSize{
+height:100% !important;
+}
+
+.heightDivContent{
+height:100%;
+}
+
+.widthDivContent{
+width:100%;
+}
+
+.kn-scorecardKpiDefinition md-content{
+overflow-y: hidden;
+}
+
+.hidden-overflow-orizontal{
+width:100%;
+overflow-y:hidden;
+}
+
+.hidden-overflow-vertical{
+width:100%;
+overflow-x:hidden;
+}
+
+#angularFullTableContentBox{
+width:100%;
+}
+
+#documentListTable{
+width:100%;
+}
+
+}
+
+/* Microsoft Edge Browser 12+ (All) - @supports method */
+
+@supports (-ms-accelerator:true) {
+ 
+.flex {
+  -ms-flex: 1 auto;
+  -webkit-box-flex: 1 auto;
+  -webkit-flex: 1 auto;
+          flex: 1;
+   width:100%;
+   margin:0px !important;
+}
+
+.flex2 {
+  -ms-flex: 1 auto;
+  -webkit-box-flex: 1 auto;
+  -webkit-flex: 1 auto;
+          flex: 1 auto;
+   width:100%;   
+   margin:0px !important;
+}
+
+#angularFullTableContentBox > table > thead > tr{
+width:100%;
+}
+
+md-tab-content > div {
+height:100%;
+}
+
+.rightHeight {
+height:100%;
+}
+
+
+#selectDivKPI{
+height:80%;
+}
+
+#selectDivKPI > angular_table{
+height:80%;
+}
+
+.mdDialogSize{
+height:100% !important;
+}
+
+.heightDivContent{
+height:100%;
+}
+
+.widthDivContent{
+width:100%;
+}
+
+.kn-scorecardKpiDefinition md-content{
+overflow-y: hidden;
+}
+
+.hidden-overflow-orizontal{
+width:100%;
+overflow-y:hidden;
+}
+
+.hidden-overflow-vertical{
+width:100%;
+overflow-x:hidden;
+}
+
+#angularFullTableContentBox{
+width:100%;
+}
+
+#documentListTable{
+width:100%;
+}
+}
+
+//SWITCH
+md-switch.md-knowage-theme.md-checked .md-thumb {
+    background-color: $fabPrimaryColor;
+}
+
+//CUSTOM PAGES CLASSES    
+md-content.md-knowage-theme.config-content-detail {
+   background-color: transparent !important;
+}
+.buttonLabel{
+    line-height: $browseButtonLineHeight;
+}
+form {
+  margin-bottom: 0;
+}
+.listSideNav {
+  width: auto;
+}
+.listOverlay {
+  width: 80% !important;
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 999 !important ;
+  bottom: 0 !important;
+  height: 100% !important;
+  md-content {
+    height: 85% ;
+  } 
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.blackOverlay {
+  top: 0;
+  left:0;
+  bottom:0;
+  right: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 900;
+}
+.lonelyIcon {
+  top: -4px;
+  position: relative;
+}
+.internalContent {
+  overflow: hidden;
+}
+.layout-margin md-tabs {
+  margin: 0;
+}
+.layout-padding {
+  md-input-container {
+    padding: 0;
+  }
+}
+.searchInput.md-input-has-value, .searchInput.md-input-focused {
+  label {
+    display: none;
+  }
+}
+
+md-menu-content._md-menu-bar-menu .divider {
+  padding-left: $standardLeftPadding;
+  margin-top: $standardMarginTop;
+  color: $baseColor;
+  font-size: $smallFontSize;
+}
+.md-indent .md-button {
+  line-height: 30px;
+} 
+md-menu-content._md-menu-bar-menu.md-dense {
+  padding: 8px 0;
+  md-menu-item.md-indent>md-icon {
+     line-height: 20px;
+  }
+}
+.md-errors-spacer {
+  min-height: 0 !important;
+}
+
+.mdError {
+  .md-errors-spacer {
+    min-height: 32px !important;
+  }
+}
+.smallInputs {
+  md-input-container {
+    margin: 10px 0 !important;
+  }
+}
+.miniContentPadding {
+  padding:4px;
+}
+
+.inputRename {
+  cursor: pointer;
+}
+
+/* Expander box directive custom classes */
+expander-box md-toolbar {
+    cursor: pointer;
+    margin-bottom: 2px;
+    span.md-toolbar-tools {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+}
+
+/* font-awesome overriding */
+.fa-stack{
+  .fa {
+    &.fa-positive {
+      color: $positiveColor;
+    }
+    &.fa-negative {
+      color: $negativeColor;
+    }
+  }
+}
+
+/* element to show when angular table is hidden because empty */
+.noTable {
+  min-width: 460px;
+  span {
+    text-transform: uppercase;
+    font-size: $smallFontSize;
+    color: $smallTextColor;
+  }
+}
+
+/* fix for unaligned icon button */
+.iconAlignFix {
+  position: relative;
+  left: -5px;
+}
+
+.floatRight {
+	float:right;
+}
+
+md-tab-item {
+  &.kn-success {
+    color: $positiveColor;
+    span {
+      color: $positiveColor;
+    }
+    &.md-active {
+      border-bottom: 2px solid $positiveColor;
+      z-index: 9999;
+      position: relative;
+      padding-bottom: 10px;
+    }
+  }
+
+  &.kn-danger {
+    color: $negativeColor;
+    span {
+      color: $negativeColor;
+    }
+    &.md-active {
+      border-bottom: 2px solid $negativeColor;
+      z-index: 9999;
+      position: relative;
+      padding-bottom: 10px;
+    }
+  }
+}
+.kn-success {
+  color: $positiveColor !important;
+}
+
+.kn-danger, .kn-dangerous {
+  color: $negativeColor !important;
+  border-color: red;
+}
+
+.kn-error-popup {
+  min-width: 300px; 
+  max-height: 400px; 
+  max-width: 600px; 
+  padding: 1px;
+}
+
+.kn-inputError {
+  color: $negativeColor !important;
+  border-bottom-color: $negativeColor !important;
+}
+
+.noSelect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.notAllowedCursor {
+  cursor: not-allowed !important;
+}
+
+.knowageStandardTable {
+  width: 100%;
+  border-collapse: collapse;
+  tr{
+    height: 32px;
+  }
+  thead {
+    background-color: $baseColor;
+    th {
+      text-align: left;
+      padding-left: 4px;
+      color: $lightTextColor;
+    }
+  }
+  tbody {
+    tr{
+      background-color: $lightTextColor;
+      border-bottom: 1px solid $ternaryColor;
+      &:hover {
+        background-color: lighten($ternaryColor,20%);
+      }
+      td {
+        text-align: left;
+        padding-left: 4px;
+        color: $darkTextColor;
+        font-size: $smallFontSize;
+        button {
+          padding: 0 !important;
+          height: 32px !important;
+        }
+      }
+    }
+  }
+}
+
+color-picker {
+  width: 100%;
+  min-height: 30px;
+  display: block;
+  .color-picker-wrapper {
+    position: absolute;
+    width: 100%;
+    z-index:9000;
+    .input-group {
+      .input-group-addon{
+        padding: 0;
+      }
+    }
+    .color-picker-panel {
+      
+    }
+  }
+}
+
+.text-line-through {
+  text-decoration: line-through  !important;
+}
+
+.rotate-transition {
+  transition: transform .3s ease-out, display 0s linear;
+}
+
+.rotate-180 {
+  transform: rotate(-180deg);
+}
+
+/* fix to have the selected color-picker always on top */
+.md-input-focused {
+  color-picker {
+    .color-picker-wrapper {
+      z-index:9999;
+    }
+  }
+}
+
+.md-icon-button {
+  &.md-icon-button-32 {
+    margin: 0;
+    height: 32px;
+    min-width: 0;
+    line-height: 32px;
+    min-height: 32px;
+    padding: 0;
+    width: 32px;
+    border-radius: 50%;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.selectable {
+  cursor: pointer;
+  &:hover {
+    background-color: lighten($tableSelectedElementColor,5%);
+  }
+  &.selected {
+    background-color: $tableSelectedElementColor;
+  }
+}
+
+.truncated {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.warning {
+  &>md-icon {
+    color: $negativeColor;
+  }
+}
+
+.md-icon-button.md-knowage-theme {
+  &.md-secondary:not([disabled]) {
+    &:hover {
+      background-color: $ternaryColor;
+    }
+  }
+}
+
+.kn-select {
+  border-bottom: 1px solid $bordersColor; 
+  width: 100%; 
+  overflow: hidden; 
+  background-size: 10px 10px !important;
+  background: transparent url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDI5Mi4zNjIgMjkyLjM2MiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjkyLjM2MiAyOTIuMzYyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTI4Ni45MzUsNjkuMzc3Yy0zLjYxNC0zLjYxNy03Ljg5OC01LjQyNC0xMi44NDgtNS40MjRIMTguMjc0Yy00Ljk1MiwwLTkuMjMzLDEuODA3LTEyLjg1LDUuNDI0ICAgQzEuODA3LDcyLjk5OCwwLDc3LjI3OSwwLDgyLjIyOGMwLDQuOTQ4LDEuODA3LDkuMjI5LDUuNDI0LDEyLjg0N2wxMjcuOTA3LDEyNy45MDdjMy42MjEsMy42MTcsNy45MDIsNS40MjgsMTIuODUsNS40MjggICBzOS4yMzMtMS44MTEsMTIuODQ3LTUuNDI4TDI4Ni45MzUsOTUuMDc0YzMuNjEzLTMuNjE3LDUuNDI3LTcuODk4LDUuNDI3LTEyLjg0N0MyOTIuMzYyLDc3LjI3OSwyOTAuNTQ4LDcyLjk5OCwyODYuOTM1LDY5LjM3N3oiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K) no-repeat 99% 50%;
+  select {
+    cursor: pointer;
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+md-list.kn-smallList{
+  md-list-item {
+    height:32px;
+    min-height: 32px;
+  }
+}
+
+.toastify {
+  font-family: 'Roboto', 'Arial', 'Sanf-serif';
+  font-size: .8rem;
+  &.kn-infoToast {
+    background: $secondaryColor;
+  }
+  &.kn-successToast {
+    background: $positiveColor;
+  }
+  &.kn-warningToast {
+    background: $negativeColor;
+  }
+}
+
+.kn-grid-container {
+  height: 100%;
+  display: flex;
+  padding: $tabPadding;
+  .ag-theme-knowage {
+    width: 100%;
+    box-shadow: 0px 3px 3px $shadowsColor;
+  }
+}
+
+.kn-main-body {
+  ._md-open-menu-container {
+    z-index: 9999;
+  }
+  ._md-menu-backdrop {
+    z-index: 9998;
+  }
+}
+
+.kn-buttonBar {
+  .kn-primaryButton{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+  }
+  md-menu{
+    overflow: hidden;
+    .kn-functionButton {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      margin-left: 0;
+      min-width: 50px;
+      &:not([disabled]){
+        &:hover{
+          md-icon {
+            color: $lightTextColor !important;
+          }
+        }
+        md-icon {
+          color: $baseColor !important;
+        }
+      }
+      
+    }
+  }
+}
+
+span.functionDescription {
+    font-size: .7rem;
+}
+
+md-dialog {
+  background: $tabBackground;
+}
+filter-by-tags {
+  .inverse-flex {
+    flex-direction: row-reverse;
+  }
+  .kn-chip {
+    padding: 4px 8px;
+    background-color: $ternaryColor;
+    cursor: pointer;
+    margin-right: 4px;
+    line-height: 30px;
+    border-radius: 50px;
+    font-size: $mediumFontSize;
+    outline: none;
+    &:hover {
+      background-color: lighten($ternaryColor, 10%);
+    }
+    &.tagSelected {
+      background-color: $baseColor;
+      color: $lightTextColor;
+      
+    }
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .kn-list-detail {
+    overflow-y: hidden;
+  }
+  .kn-grid-container {
+    height: calc(100% - 64px);
+  }
+}
+
+/* IE11 fix */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  md-sidenav {
+    width: 320px !important;
+  }
+  .canvas-for-highcharts{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    &.show-for-canvas {
+      display: block;
+    }
+  }
+  html{
+    overflow: hidden;
+  }
+  .itemboxGU {
+    min-height: 100px;
+  }
+  md-checkbox.md-knowage-theme.md-checked ._md-icon:after,md-checkbox.md-knowage-theme.md-checked .md-icon::after {
+    padding-top: 11px;
+  }
+  
+  md-select-menu[multiple] md-option[selected]._md-checkbox-enabled ._md-icon::after{
+    padding-top: 11px;
+  }
+  
+}
+
+/* print media */ 
+@media print {
+  @page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+  }
+  .kn-cockpit .cockpitSheetTabsHook md-tabs-canvas md-tab-item.md-tab {
+    display: none !important; 
+  } 
+}

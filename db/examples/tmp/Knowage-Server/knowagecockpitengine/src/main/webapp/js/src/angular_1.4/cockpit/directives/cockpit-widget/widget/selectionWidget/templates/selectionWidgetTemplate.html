@@ -1,0 +1,42 @@
+<div layout="column" ng-style="ngModel.style" class="selectionWidget" flex>
+
+	<md-toolbar class="secondaryToolbar" layout="row" ng-if="showToolbar">
+		<h1 flex class="md-toolbar-tools">{{::translate.load('sbi.cockpit.selections.title')}}</h1>
+		<md-button class="md-icon-button" ng-click="clearAllSelection()" ng-if="selection.length >0">
+			<md-icon md-font-icon="fa fa-eraser" aria-label="ClearAll"></md-icon>
+			<md-tooltip md-direction="bottom">{{::translate.load('sbi.cockpit.selections.clearselections')}}</md-tooltip>
+		</md-button>
+	</md-toolbar>
+	
+	 <md-list class="md-dense" flex ng-if="!ngModel.style.chips.enabled && selection.length > 0">
+        <md-list-item ng-repeat="row in selection" layout="row" layout-align="start center" ng-style="getRowStyle($even)">
+			<p class="selectionSpan" ng-repeat="column in columnTableSelection" ng-if="column.visible" flex>
+				{{row[column.name]}}
+				<md-tooltip md-delay="500">{{row[column.name]}}</md-tooltip>
+			</p>
+           <md-button class="md-secondary md-icon-button" ng-click="deleteSelection(row, true)" aria-label="clear selection">
+            <md-icon md-font-icon="fa fa-trash"></md-icon>
+            <md-tooltip md-delay="500">{{::translate.load('sbi.cockpit.selections.clearselection')}}</md-tooltip>
+          </md-button>
+        </md-list-item>
+     </md-list>
+     
+     <div layout-wrap layout="row" layout-fill ng-if="ngModel.style.chips.enabled && selection.length > 0" layout-align="start center" style="padding:4px">
+     	<span class="kn-chip noSelect" ng-repeat="row in selection" ng-style="ngModel.style.chips">
+			<span ng-repeat="column in columnTableSelection" ng-if="column.visible" flex ng-style="ngModel.style.chips">
+				{{row[column.name]}}
+				<md-tooltip md-delay="500">{{row[column.name]}}</md-tooltip>
+			</span>
+			<md-button class="md-secondary md-icon-button" ng-click="deleteSelection(row, true)" aria-label="clear selection">
+            	<md-icon md-font-icon="fa fa-trash" ng-style="ngModel.style.chips"></md-icon>
+	            <md-tooltip md-delay="500">{{::translate.load('sbi.cockpit.selections.clearselection')}}</md-tooltip>
+          	</md-button>
+		</span>
+     </div>
+     
+	<div layout="column" flex layout-align="center center" ng-if="selection.length == 0 && !ngModel.style.noSelectionsMessage" layout-padding>
+		<span class="kn-info" ng-if="!ngModel.style.noSelectionsMessageText">{{::translate.load('sbi.cockpit.selections.noselections')}}</span>
+		<span class="kn-info" ng-if="ngModel.style.noSelectionsMessageText">{{ngModel.style.noSelectionsMessageText}}</span>
+	</div>	
+</div>
+

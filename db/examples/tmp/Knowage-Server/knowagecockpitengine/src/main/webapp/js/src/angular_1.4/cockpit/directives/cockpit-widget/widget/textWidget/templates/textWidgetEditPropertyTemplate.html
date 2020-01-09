@@ -1,0 +1,115 @@
+<md-card   class="flexCard customTableWidgetConfiguration textWidget" >
+	<md-card-content flex layout="column" class="noPadding">
+	    <md-toolbar> 
+	      <div class="md-toolbar-tools">
+	        <h2>{{translate.format(translate.load('sbi.cockpit.widget.configuration'),translate.load('sbi.cockpit.widget.text'))}}</h2>
+	        <span flex></span>
+	      </div>
+	    </md-toolbar>
+	    <md-content flex layout="column">
+			<md-tabs flex md-border-bottom md-selected="1">
+		      	
+		      	<md-tab label="{{translate.load('sbi.cockpit.dataset')}}">
+		   			<multi-dataset-selector ng-model="localModel.datasetId" on-change="handleEvent('datasetChanged',dsIdArray)" dataset-type-exclusion="[{type:'SbiSolrDataSet'}]">
+		   			</multi-dataset-selector>
+		     	</md-tab>
+		      	
+				<md-tab label="{{translate.load('sbi.cockpit.widget.text.editor')}}">
+					<div class="noPadding" layout="row" >
+						<md-card  flex>
+							<md-card-content class="noPadding">
+								<wysiwyg-edit content="localModel.content.text" config="editorConfig" content-style="{{getcssUrl()}}" flex></wysiwyg-edit>
+							</md-card-content>
+						</md-card>
+						<cockpit-text-configuration editor-text="localModel.content.text" ng-model-shared="localModel">
+				    </div>
+		        </md-tab>
+		        <md-tab label="{{translate.load('sbi.cockpit.style')}}">
+		        	
+		        	
+		        		<md-card>
+							<md-toolbar class="ternaryToolbar" >
+								<div class="md-toolbar-tools" layout="row">
+									<h2>Measures Formatting</h2>
+									<span flex></span>
+								</div>
+							</md-toolbar>
+							<md-card-content >
+								<div layout="row" flex ng-cloak layout-wrap>
+						           	<md-input-container flex=25 class="md-block"> 
+										<label>Prefix</label>
+										<input class="input_class" ng-model="localModel.numbers.prefix" /> 
+									</md-input-container>
+									<md-input-container flex=25 class="md-block"> 
+										<label>Suffix</label>
+										<input class="input_class" ng-model="localModel.numbers.suffix" />
+									</md-input-container>
+						           	<md-input-container flex=25 class="md-block"> 
+										<label>Precision</label>
+										<input class="input_class" type="number" ng-model="localModel.numbers.precision" />
+									</md-input-container>
+									<div flex layout="row" layout-align="start center" class="layout-align-start-center layout-row flex">
+										<md-checkbox class="md-block" ng-model="localModel.numbers.format">
+							            	Format to Locale
+							          	</md-checkbox>
+									</div> 	
+					           </div>
+							</md-card-content>
+						</md-card>
+						
+						<md-card>
+							<md-toolbar class="ternaryToolbar" >
+								<div class="md-toolbar-tools" layout="row">
+									<h2>Padding</h2>
+									<span flex></span>
+								</div>
+							</md-toolbar>
+							<md-card-content >
+								<div layout="row" flex ng-cloak layout-wrap>
+
+					           	<md-input-container flex=50 class="md-block"> 
+									<label><i class="fa fa-angle-double-up"></i> Top</label>
+									<input class="input_class" ng-model="localModel.style['padding-top']" /> 
+								</md-input-container>
+								<md-input-container flex=50 class="md-block"> 
+									<label><i class="fa fa-angle-double-right"></i> Right</label>
+									<input class="input_class" ng-model="localModel.style['padding-right']" />
+								</md-input-container>
+					           	<md-input-container flex=50 class="md-block"> 
+									<label><i class="fa fa-angle-double-left"></i> Left</label>
+									<input class="input_class" ng-model="localModel.style['padding-left']" />
+								</md-input-container>
+								<md-input-container flex=50 class="md-block"> 
+									<label><i class="fa fa-angle-double-down"></i> Bottom</label>
+									<input class="input_class" ng-model="localModel.style['padding-bottom']" />
+								</md-input-container>
+			          
+			           </div>
+							</md-card-content>
+						</md-card>
+
+		        		<cockpit-style-configurator widget ng-model="localModel.style">
+		        	</cockpit-style-configurator>
+		        </md-tab>
+		     	
+		     	<md-tab label="{{translate.load('sbi.cockpit.widget.table.cross')}}" >
+					<cockpit-cross-configurator widget ng-cloak ng-model="localModel"></cockpit-cross-configurator>
+				</md-tab>
+		     	
+				<md-tab label="{{::translate.load('sbi.cockpit.widget.table.filters')}}">
+					<cockpit-filters-configuration ng-model-shared="localModel">
+				</md-tab>
+
+
+	      	</md-tabs>
+	    </md-content>
+    </md-card-content>
+    <md-card-actions layout="row"  layout-align="end center">
+	    <md-button class="md-raised" ng-click="cancelConfiguration()" >
+	     {{translate.load('sbi.generic.cancel')}}
+	    </md-button>
+	    <md-button class="md-raised md-primary" ng-click="saveConfiguration()"  >
+	     {{translate.load('sbi.generic.save')}}
+	    </md-button>
+    </md-card-actions>
+</md-card>

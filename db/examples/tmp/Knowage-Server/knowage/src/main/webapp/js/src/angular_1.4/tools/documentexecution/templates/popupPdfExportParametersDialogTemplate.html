@@ -1,0 +1,54 @@
+<!-- 
+<md-dialog aria-label='{{translate.load("sbi.functionscatalog.newinputsdialog.demoexecutionresult")}}' style="max-width: 100%;
+    max-height: 100%;
+    width: 80%;
+    height: 80%;
+    border-radius: 0;">
+
+<md-card layout-fill layout="column" class="flexCard">
+ -->
+<md-card layout-fill layout="column" class="flexCard" style="min-width: 400px; min-height: 300px;">
+	<md-card-content flex layout="column" class="noPadding">
+		<md-toolbar>
+			<div class="md-toolbar-tools">
+				{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.parameters')}}
+			</div>
+		</md-toolbar>
+		<md-content flex layout-padding layout-align="space-around center" layout="row">
+			
+			<div layout="column">
+				<md-input-container>
+					<label>{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.waittime')}} (s)</label>
+					<input ng-model="parameters.pdfWaitTime" type="number" step="1" min="10" max="300"></input>
+				</md-input-container>
+				
+				<md-input-container>
+					<label>{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.quality')}}</label>
+					<md-select ng-model="parameters.pdfZoomFactor" aria-label="zoom">
+						<md-option ng-value="2">{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.quality.good')}} (2x)</md-option>
+						<md-option ng-value="3">{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.quality.verygood')}} (3x)</md-option>
+						<md-option ng-value="4">{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.quality.excellent')}} (4x)</md-option>
+					</md-select>
+				</md-input-container>
+			</div>
+				
+			<div layout="column">
+				<md-checkbox ng-model="parameters.pdfFrontPage" aria-label="Front page">
+					{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.frontpage')}}
+				</md-checkbox>
+				
+				<md-checkbox ng-model="parameters.pdfBackPage" aria-label="Back page">
+					{{translate.load('sbi.execution.executionpage.toolbar.export.pdf.backpage')}}
+				</md-checkbox>
+			</div>
+			
+		</md-content>
+	</md-card-content>
+	<md-card-actions layout="row" layout-align="end center">
+		<md-button ng-click="closeDialog()">{{translate.load('sbi.generic.cancel')}}</md-button>
+		<md-button ng-disabled="!parameters.pdfWaitTime" ng-click="exportPdf()">{{translate.load('sbi.generic.save')}}</md-button>
+	</md-card-actions>
+</md-card>
+<!-- 
+</md-dialog>
+ -->

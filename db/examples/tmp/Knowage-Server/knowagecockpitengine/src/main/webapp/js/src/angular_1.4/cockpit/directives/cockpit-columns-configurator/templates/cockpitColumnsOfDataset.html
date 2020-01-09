@@ -1,0 +1,29 @@
+<div layout-fill class="overlayGray" layout="row" layout-align="center center">
+<md-dialog aria-label="table configuration" ng-cloak class="width80" layout="column">
+	<md-toolbar class="secondaryToolbar">
+		<div class="md-toolbar-tools">
+			{{::translate.load('sbi.cockpit.widgets.table.tabledesignerpanel.tableoptions.addcolumn')}}
+		</div>
+	</md-toolbar>
+    <md-dialog-content flex layout="column">
+	<div style="padding: 0 8px">	
+		<md-input-container md-no-float class="md-block">
+	      <md-icon md-font-icon="fa fa-search"></md-icon>
+	      <input ng-model="columnsSearchText" ng-change="filterColumns()" type="text" placeholder="{{::translate.load('kn.generic.search')}}" />
+	    </md-input-container>
+    </div>
+    
+	<div ag-grid="columnsGridOptions" class="ag-theme-balham ag-theme-knowage ag-theme-knowage-default small-padding" style="height:300px"></div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <span flex></span>
+      <md-button ng-click="cancelConfiguration()" class="md-raised">
+        {{::translate.load('sbi.generic.cancel')}}
+      </md-button>
+      <md-button ng-click="saveColumnConfiguration()"  class="md-raised md-primary">
+        {{::translate.load('sbi.generic.save')}}
+      </md-button>
+    </md-dialog-actions>
+
+</md-dialog>
+</div>

@@ -1,0 +1,178 @@
+.kn-functionsCatalog {
+	.customLabel {
+	    font-size: $smallFontSize;
+    	color: $secondaryColor;
+	}
+	.customColorLabel {
+		color: $secondaryColor;
+	}
+	.customCodeMirrorLabel {
+		color: $secondaryColor;
+	    -webkit-transform: translate3d(0,6px,0) scale(.75) !important;
+	    transform: translate3d(0,6px,0) scale(.75) !important;
+	    transition: -webkit-transform cubic-bezier(.25,.8,.25,1) .4s,width cubic-bezier(.25,.8,.25,1) .4s !important;
+	    transition: transform cubic-bezier(.25,.8,.25,1) .4s,width cubic-bezier(.25,.8,.25,1) .4s !important;
+	}
+	md-chips {
+		md-chips-wrap {
+			margin-bottom: 20px;
+		}
+	}
+	.kn-detail-content {
+		overflow-y:hidden;
+	}
+	.md-headline {
+		clear:both;
+		display: block;
+	}
+	.functionsCardContainer {
+		min-height: 80px;
+		.functionsCard {
+			height: 60px;
+			transition: background-color .6s;
+			text-align: center;
+			cursor: pointer;
+			md-card-content {
+				height: 100%;
+			}
+			background: {
+				repeat: no-repeat;
+				position: right -20px top -10px;
+				color: $lightTextColor;
+			}
+			&.active {
+				outline: none;
+				background-color: lighten($baseColor, 40%);
+				.smallGrey {
+					color: $baseColor;
+				}
+			}
+			&.image_all {
+				background-image: url('../img/functions_catalog_images/all.png');
+			}
+			.md-headline {
+				font-size: $headerFontSize;
+				text-transform: uppercase;
+			}
+			.smallGrey {
+			  color: lighten($smallTextColor,10%);
+			  font-size: $smallFontSize;
+			}
+		}
+	}
+	.messageItem {
+		font-size: $smallFontSize;
+		max-height: $toolbarHeight/2;
+		min-height: $toolbarHeight/2;
+		text-align: center;
+		color: $smallTextColor;
+		._md-secondary-container {
+			display: none;
+		}
+	}
+	.replaceDialog {
+		.md-subheader ._md-subheader-inner{
+			padding: 8px;
+			color: $baseColor;
+		}
+		md-input-container{
+			.md-errors-spacer {
+				display: none;
+			}
+		}
+		file-upload-base64{
+			md-content{
+				background-color:transparent;
+				.md-button.md-knowage-theme.md-raised {
+					height: 24px;
+					line-height:24px;
+				}
+				md-input-container{
+					margin: 0;
+				}
+			}
+		}
+		.inputContainer {
+			&> label {
+				padding-left: 8px;
+				position: relative;
+				top: 8px;
+				font-size: $smallFontSize;
+				color: $baseColor;
+			}
+			padding: 0 8px;
+		}
+		.outputList {
+			height: 70px;
+			&:nth-child(even) {
+	        	background-color: $contentBackground;
+	        }
+	        &:nth-child(odd) {
+	            background-color: $lightTextColor;
+	        }
+			&.tallerItem {
+				height: 100px;
+			}
+			md-icon{
+				text-align: center;
+			}
+			h3,h4{
+				margin: 0;
+			    font-size: $defaultSize;
+    			font-weight: 400;
+    			line-height: $largeFontSize;
+    			overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			}
+			h3 {
+				font-size: $defaultSize;
+			}
+			h4{
+				font-size: $baseFontSize;
+			}
+			md-input-container{
+				margin: 0;
+				.md-errors-spacer {
+					display: none;
+				}
+			}
+		}
+	}
+	.functionsChipsContainer{
+		.functionsChips {
+			cursor: default;
+		    border-radius: 16px;
+		    display: block;
+		    height: 32px;
+		    line-height: 32px;
+		    margin: 8px 8px 0 0;
+		    padding: 0 12px;
+		    float: left;
+		    box-sizing: border-box;
+		    max-width: 100%;
+		    position: relative;
+		    background: $ternaryColor;
+    		color: $darkTextColor;
+    		font-size: $mediumFontSize;
+    		text-transform: uppercase;
+    		outline:none;
+    		&.chipSelected {
+    			background: $baseColor;
+    			color: $lightTextColor;
+    		}
+		}
+	}
+}
+
+/* IE11 fix */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .kn-functionsCatalog {
+    md-dialog {
+		display:block !Important;
+		flex:none;
+		
+	}
+  }
+}

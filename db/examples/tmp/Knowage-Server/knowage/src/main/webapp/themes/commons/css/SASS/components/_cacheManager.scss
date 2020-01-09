@@ -1,0 +1,18 @@
+.cacheManager{
+	md-content.md-knowage-theme {
+		background-color: $pageBackground;
+	}
+	
+	md-tabs-content-wrapper {
+		background-color: $pageBackground;
+	}
+	md-tabs-canvas {
+		background-color: $tabBackground;
+	}
+
+	md-input-container {
+		label {
+			white-space: pre-wrap !important;
+		}
+	}
+}

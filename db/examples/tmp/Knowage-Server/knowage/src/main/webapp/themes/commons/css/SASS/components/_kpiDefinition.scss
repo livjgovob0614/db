@@ -1,0 +1,48 @@
+.kn-kpi-definition {
+	.formulaController {
+		.CodeMirror {
+			min-height: 400px;
+    		max-height: 500px;
+			height: auto !important;
+		}
+	}
+	md-card .thresholdDefinitionWarning {
+		background-color: $warningColor;
+		margin-bottom: 30px;
+	}
+	.thresholdTable {
+		.thresholdOrderButton {
+			padding: 0;
+		}
+	}
+	expander-box {
+		md-icon {
+			line-height: 24px !important;
+		}
+	}
+	md-radio-button.md-knowage-theme .md-on {
+		background-color: $baseColor;
+	}
+	color-picker{
+		.color-picker-wrapper {
+			.input-group {
+				width: 100%;
+				.input-group-addon:first-child {
+					width: 25px;
+				}
+			}
+		}
+		.color-picker-panel {
+			position: absolute;
+		}
+	}
+	
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .kn-kpi-definition {
+    md-checkbox.md-checked .md-icon:after {
+	    padding-top: 11px;
+	  }
+  }
+}
