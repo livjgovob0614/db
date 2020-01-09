@@ -1,15 +1,12 @@
-CREATE OR REPLACE FUNCTION sqlFunc(clientId INTEGER)
+CREATE OR REPLACE FUNCTION sqlfunc(id INTEGER)
 RETURNS varchar AS $$
-declare result varchar;
+declare ret varchar;
 BEGIN
-  if clientId > 1000 then
-    if (clientId > 1500) then
-      result = "TT_ID";
-    else
-      result = "TF_ID";
-    end if;
+  if id < 10 then
+    ret = 'C';
+  else if id < 0 then
+    ret = 'D';
   else
-    result = "F_ID";
+    ret = 'E';
   end if;
-  return result;
-END;
+END
