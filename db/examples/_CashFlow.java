@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CashFlow {
+public class _CashFlow {
 
   protected String getSqlSelect(int option, int clientId) {
     final StringBuffer sql = new StringBuffer();
@@ -102,6 +102,18 @@ public class CashFlow {
       pstmt.close();
       rs = null;
       pstmt = null;
+    }
+  }
+
+  public static void main(String[] args) {
+    int option = 1;
+    int clientId = 3;
+
+    _CashFlow cf = new _CashFlow();
+    try {
+    cf.doIt(option, clientId);
+    } catch (Exception e) {
+      e.printStackTrace();
     }
   }
 }

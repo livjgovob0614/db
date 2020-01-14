@@ -1,0 +1,18 @@
+[run]
+omit =
+    # omit scripts file
+    anyblok/scripts.py
+    # omit anything in a tests directory anywhere
+    */tests/*
+    # omit anything in a test_bloks directory anywhere
+    anyblok/test_bloks/*
+    # omit anything in a sphinx directory anywhere
+    anyblok/sphinx/*
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    # unexecuting logger
+    logger\.
+    # exclude all import error of unloaded module
+    except ImportError:

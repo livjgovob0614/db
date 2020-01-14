@@ -1,0 +1,27 @@
+syntax: glob
+
+dist
+build
+doc/_build
+
+.coverage
+
+.installed.cfg
+*.egg-info
+*.swp
+*.pyc
+*.pyo
+*\#
+*.\#*
+*~
+*.orig
+
+parts/
+bin/
+etc/
+venv/
+develop-eggs/
+htmlcov/
+
+gmon.out
+.idea
