@@ -1,1 +1,0 @@
-UPDATE MKTG_Platform set IsRequiredMailAddres = 'Y';

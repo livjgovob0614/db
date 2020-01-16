@@ -1,1 +1,0 @@
-select de_metas_acct.Fact_Acct_EndingBalance_RebuildAll();

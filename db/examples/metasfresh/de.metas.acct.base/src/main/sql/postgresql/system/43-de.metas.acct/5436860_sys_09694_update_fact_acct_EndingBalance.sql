@@ -1,1 +1,0 @@
-select de_metas_acct.fact_acct_endingbalance_rebuildall();

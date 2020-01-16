@@ -1,1 +1,0 @@
-UPDATE AD_Column SET isautoapplyvalidationrule='Y'  WHERE AD_Column_ID=548231;

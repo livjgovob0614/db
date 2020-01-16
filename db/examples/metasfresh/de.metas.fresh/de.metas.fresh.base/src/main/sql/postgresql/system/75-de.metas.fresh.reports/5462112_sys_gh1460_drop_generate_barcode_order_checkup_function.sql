@@ -1,1 +1,0 @@
-﻿DROP FUNCTION IF EXISTS de_metas_endcustomer_fresh_reports.generate_barcode_order_checkup(IN AD_Table_ID numeric, IN RECORD_ID numeric);

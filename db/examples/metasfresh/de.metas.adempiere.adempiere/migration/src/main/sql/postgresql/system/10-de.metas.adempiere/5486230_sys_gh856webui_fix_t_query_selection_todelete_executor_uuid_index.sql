@@ -1,4 +1,0 @@
-DROP INDEX t_query_selection_todelete_executor_uuid;
-
-CREATE INDEX t_query_selection_todelete_executor_uuid ON t_query_selection_todelete(executor_uuid);
-

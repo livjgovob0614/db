@@ -1,1 +1,0 @@
-ALTER TABLE AD_RelationType RENAME COLUMN IsReferenceTarget TO  IsTableRecordIdTarget;

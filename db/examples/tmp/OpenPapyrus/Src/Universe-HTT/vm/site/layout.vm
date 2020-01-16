@@ -1,8 +1,0 @@
-﻿## Universe-HTT / 2013
-## site/layout.vm
-## Просмотр контента
-##
-
-#macro(CONTENT $id)$siteUtil.draw($request, $id)#end
-
-#CONTENT($site)

@@ -1,1 +1,0 @@
-${@(GoodsGroup, $1).Name}

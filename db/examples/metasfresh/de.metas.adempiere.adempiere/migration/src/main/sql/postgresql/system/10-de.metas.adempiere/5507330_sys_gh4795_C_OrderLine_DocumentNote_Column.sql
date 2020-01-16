@@ -1,4 +1,0 @@
--- 2018-11-29T12:45:33.664
--- I forgot to set the DICTIONARY_ID_COMMENTS System Configurator
-UPDATE AD_Column SET ColumnSQL='',Updated=TO_TIMESTAMP('2018-11-29 12:45:33','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=560861
-;

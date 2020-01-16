@@ -1,1 +1,0 @@
-CREATE TABLE backup.C_Invoice_Candidate_BKP_gh2956_20171127 as select C_Invoice_Candidate_ID, allowconsolidateinvoice from C_Invoice_Candidate;

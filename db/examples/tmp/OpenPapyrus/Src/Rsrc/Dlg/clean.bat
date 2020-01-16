@@ -1,2 +1,0 @@
-del *.bkp
-del *.scp

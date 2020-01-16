@@ -1,1 +1,0 @@
-update ad_sysConfig set value = 'Y' where ad_sysConfig_ID = 50057;
