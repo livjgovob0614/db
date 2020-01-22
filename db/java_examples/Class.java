@@ -11,13 +11,12 @@ public class Obj1 {
 
   @Id
   @GeneratedValue
-  private int id;
   private String username;
   private int age;
 
 
   @OneToOne
-  @JoinColumn(name = "JOIN_CLUMN")
+  @JoinColumn(name = "JOIN_CLOMN")
   private Obj2 obj2;
 }
 
@@ -26,6 +25,5 @@ public class Obj1 {
 public class Obj2 {
   @Id
   @GeneratedValue
-  private int id;
   private String username;
 }
