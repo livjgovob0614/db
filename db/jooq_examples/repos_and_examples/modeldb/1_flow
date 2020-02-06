@@ -1,0 +1,12 @@
+
+<< LinearModelAlgorithms >>
+
+(1) isStandardized
+RunOperations.main() -> LinearModelAlgorithms.
+                          featureImportances() -> checkIsStandardizeLinearModel() -> isStandardized()
+
+
+(2) confidenceIntervals
+
+
+(3) iterationsUntilConvergence
