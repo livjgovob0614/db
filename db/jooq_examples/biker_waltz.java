@@ -21,6 +21,8 @@ public CurrentYear computeCurrentYear(int[] totals, String startOfYear) {
             }
           });
 
+  int maxValue, minValue, maxIndex, minIndex;
+
   for (int i=0; i<totals.length; ++i) {
     int currentValue = totals[i];
     if (currentValue == -1) {
