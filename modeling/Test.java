@@ -11,8 +11,7 @@ import java.sql.SQLException;
 
 public class Test {
 
-  public static void main(String[] args) {
-    try {
+  public static void main(String[] args) throws SQLException {
       Connection conn = DriverManager.getConnection("a@a", "a", "a");
       Statement stmt = conn.createStatement();
 
@@ -24,8 +23,6 @@ public class Test {
         int a = rs.getInt(0);
         System.out.println("a: " + a);
       }
-    } catch (SQLException e) {
-    }
   }
 }
 
